@@ -1,5 +1,5 @@
 ﻿
-namespace FinalProject
+namespace Sem2FProject
 {
     partial class NewFlight
     {
