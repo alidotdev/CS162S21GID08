@@ -52,20 +52,49 @@
     <Compile Include="AdminProfile.designer.cs">
       <DependentUpon>AdminProfile.cs</DependentUpon>
     </Compile>
+    <Compile Include="AllFlights.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllFlights.Designer.cs" />
+    <Compile Include="AllReservedSeats.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllReservedSeats.Designer.cs" />
+    <Compile Include="CancelFlight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CancelFlight.Designer.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs" />
     <Compile Include="Form2.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form2.designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
+    <Compile Include="NewFlight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewFlight.Designer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UpdateFlight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateFlight.Designer.cs" />
     <EmbeddedResource Include="AdminProfile.resx">
       <DependentUpon>AdminProfile.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AllFlights.resx" />
+    <EmbeddedResource Include="AllReservedSeats.resx" />
+    <EmbeddedResource Include="CancelFlight.resx" />
+    <EmbeddedResource Include="Form1.resx" />
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="NewFlight.resx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -76,6 +105,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="UpdateFlight.resx" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
