@@ -27,5 +27,15 @@ namespace Sem2FProject
         {
 
         }
+
+        private void BodyPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void CancelFlightLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

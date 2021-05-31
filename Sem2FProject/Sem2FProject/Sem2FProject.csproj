@@ -207,6 +207,12 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\icons8_circled_user_male_skin_type_7_48px.png" />
+    <None Include="Resources\icons8_circled_user_male_skin_type_7_60px.png" />
+    <None Include="Resources\icons8_airplane_take_off_60px.png" />
+    <None Include="Resources\icons8_user_shield_60px.png" />
+    <None Include="Resources\icons8_intel_isef_96px.png" />
+    <None Include="Resources\icons8_dyndns_70px.png" />
     <Content Include="Resources\plane-841441_19201.jpg" />
     <None Include="Resources\plane-841441_192011.jpg" />
   </ItemGroup>
