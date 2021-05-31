@@ -16,7 +16,7 @@ namespace Sem2FProject
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new AllReservedSeats());
+            Application.Run(new Login());
         }
     }
 }

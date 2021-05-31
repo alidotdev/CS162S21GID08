@@ -30,3 +30,12 @@ E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.cs
 E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.csproj.CoreCompileInputs.cache
 E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.exe
 E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.pdb
+E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.AdminHome.resources
+E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.BookFlight.resources
+E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.CancelFlightTicket.resources
+E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.ForgotPassword.resources
+E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.Form1.resources
+E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.Form2.resources
+E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.Login.resources
+E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.UpdateFlightTicket.resources
+E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.UserHome.resources
