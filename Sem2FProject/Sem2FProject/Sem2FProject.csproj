@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminHome.designer.cs">
+      <DependentUpon>AdminHome.cs</DependentUpon>
+    </Compile>
     <Compile Include="AdminProfile.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,11 +70,47 @@
     <Compile Include="AllReservedSeats.designer.cs">
       <DependentUpon>AllReservedSeats.cs</DependentUpon>
     </Compile>
+    <Compile Include="BookFlight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookFlight.designer.cs">
+      <DependentUpon>BookFlight.cs</DependentUpon>
+    </Compile>
     <Compile Include="CancelFlight.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="CancelFlight.designer.cs">
       <DependentUpon>CancelFlight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CancelFlightTicket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CancelFlightTicket.designer.cs">
+      <DependentUpon>CancelFlightTicket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForgotPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForgotPassword.designer.cs">
+      <DependentUpon>ForgotPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
     </Compile>
     <Compile Include="NewFlight.cs">
       <SubType>Form</SubType>
@@ -84,6 +126,21 @@
     <Compile Include="UpdateFlight.designer.cs">
       <DependentUpon>UpdateFlight.cs</DependentUpon>
     </Compile>
+    <Compile Include="UpdateFlightTicket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateFlightTicket.designer.cs">
+      <DependentUpon>UpdateFlightTicket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserHome.designer.cs">
+      <DependentUpon>UserHome.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdminHome.resx">
+      <DependentUpon>AdminHome.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AdminProfile.resx">
       <DependentUpon>AdminProfile.cs</DependentUpon>
     </EmbeddedResource>
@@ -93,8 +150,26 @@
     <EmbeddedResource Include="AllReservedSeats.resx">
       <DependentUpon>AllReservedSeats.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="BookFlight.resx">
+      <DependentUpon>BookFlight.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CancelFlight.resx">
       <DependentUpon>CancelFlight.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CancelFlightTicket.resx">
+      <DependentUpon>CancelFlightTicket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForgotPassword.resx">
+      <DependentUpon>ForgotPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NewFlight.resx">
       <DependentUpon>NewFlight.cs</DependentUpon>
@@ -111,6 +186,12 @@
     </Compile>
     <EmbeddedResource Include="UpdateFlight.resx">
       <DependentUpon>UpdateFlight.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateFlightTicket.resx">
+      <DependentUpon>UpdateFlightTicket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserHome.resx">
+      <DependentUpon>UserHome.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
