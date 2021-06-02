@@ -59,6 +59,7 @@
     <Compile Include="AdminProfile.designer.cs">
       <DependentUpon>AdminProfile.cs</DependentUpon>
     </Compile>
+    <Compile Include="Airline.cs" />
     <Compile Include="AllFlights.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -123,6 +124,7 @@
     <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Ticket.cs" />
     <Compile Include="Transaction.cs" />
     <Compile Include="UpdateFlight.cs">
       <SubType>Form</SubType>
@@ -137,6 +139,7 @@
       <DependentUpon>UpdateFlightTicket.cs</DependentUpon>
     </Compile>
     <Compile Include="User.cs" />
+    <Compile Include="UserData.cs" />
     <Compile Include="UserHome.cs">
       <SubType>Form</SubType>
     </Compile>

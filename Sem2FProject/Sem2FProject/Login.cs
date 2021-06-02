@@ -50,12 +50,22 @@ namespace Sem2FProject
                 this.Hide();
                 new AdminHome().Show();
             }
+            else if(email!=null)
+            {
+                List<User> list = UserData.GetInstance().userList;
+                for (int i = 0; i < list.Count; i++)
+                {
+                    if (email == list[i].Email && pwd == list[i].Password)
+                    {
+                        this.Hide();
+                        new UserHome().Show();
+                        break;
+                    }
+                }
+            }
             else
             {
-                UserData userData ;
-                
-                this.Hide();
-                new UserHome().Show();
+                MessageBox.Show("Enter Data!");
             }
         }
 

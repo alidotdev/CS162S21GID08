@@ -47,7 +47,10 @@ namespace Sem2FProject
             this.resetBtn = new System.Windows.Forms.Button();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.CnicBox = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel3
@@ -157,7 +160,7 @@ namespace Sem2FProject
             // 
             this.femaleBtn.AutoSize = true;
             this.femaleBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.femaleBtn.Location = new System.Drawing.Point(371, 324);
+            this.femaleBtn.Location = new System.Drawing.Point(303, 324);
             this.femaleBtn.Name = "femaleBtn";
             this.femaleBtn.Size = new System.Drawing.Size(75, 22);
             this.femaleBtn.TabIndex = 6;
@@ -230,19 +233,52 @@ namespace Sem2FProject
             this.label7.TabIndex = 3;
             this.label7.Text = "CNIC";
             // 
-            // textBox1
+            // CnicBox
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.textBox1.Location = new System.Drawing.Point(227, 224);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(301, 26);
-            this.textBox1.TabIndex = 4;
+            this.CnicBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.CnicBox.Location = new System.Drawing.Point(227, 224);
+            this.CnicBox.Name = "CnicBox";
+            this.CnicBox.Size = new System.Drawing.Size(301, 26);
+            this.CnicBox.TabIndex = 4;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.label8.Location = new System.Drawing.Point(403, 324);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(38, 20);
+            this.label8.TabIndex = 3;
+            this.label8.Text = "Age";
+            // 
+            // numericUpDown1
+            // 
+            this.numericUpDown1.Location = new System.Drawing.Point(476, 324);
+            this.numericUpDown1.Maximum = new decimal(new int[] {
+            70,
+            0,
+            0,
+            0});
+            this.numericUpDown1.Minimum = new decimal(new int[] {
+            18,
+            0,
+            0,
+            0});
+            this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.Size = new System.Drawing.Size(52, 20);
+            this.numericUpDown1.TabIndex = 10;
+            this.numericUpDown1.Value = new decimal(new int[] {
+            18,
+            0,
+            0,
+            0});
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(688, 505);
+            this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.resetBtn);
             this.Controls.Add(this.SubmitBtn);
@@ -251,9 +287,10 @@ namespace Sem2FProject
             this.Controls.Add(this.passwordBox);
             this.Controls.Add(this.contactNoBox);
             this.Controls.Add(this.label6);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.CnicBox);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.emailBox);
             this.Controls.Add(this.label3);
@@ -267,6 +304,7 @@ namespace Sem2FProject
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Create New Account";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -296,7 +334,9 @@ namespace Sem2FProject
         private System.Windows.Forms.Button resetBtn;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox CnicBox;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.NumericUpDown numericUpDown1;
     }
 }
 

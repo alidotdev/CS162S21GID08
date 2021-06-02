@@ -37,6 +37,32 @@ namespace Sem2FProject
 
         private void SubmitBtn_Click(object sender, EventArgs e)
         {
+            String firstN = fNameBox.Text;
+            String LastN = lNameBox.Text;
+            String cnic = CnicBox.Text;
+            String email = emailBox.Text;
+            String contact = contactNoBox.Text;
+            String pwd = passwordBox.Text;
+            int age = (int)numericUpDown1.Value;
+            String gender="";
+            if (maleBtn.Checked)
+            {
+                gender = "Male";
+            }
+            else
+            {
+                gender = "Female";
+            }
+            User user = new User();
+            user.FirstName = firstN;
+            user.LastName = LastN;
+            user.CNIC = cnic;
+            user.Email = email;
+            user.Gender = gender;
+            user.Age = age;
+            user.Password = pwd;
+            UserData.GetInstance().AddUser(user);
+
             this.Hide();
             new Login().Show();
         }
