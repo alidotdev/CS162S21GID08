@@ -52,6 +52,7 @@ namespace Sem2FProject
             }
             else
             {
+                UserData userData ;
                 
                 this.Hide();
                 new UserHome().Show();
@@ -73,5 +74,6 @@ namespace Sem2FProject
                 button1_Click(sender, e);
             }
         }
+
     }
 }

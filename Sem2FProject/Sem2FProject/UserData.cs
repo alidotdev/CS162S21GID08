@@ -13,7 +13,7 @@ namespace Sem2FProject
             get;
         }
         private static UserData userInfo;
-        private UserData()
+        public UserData()
         {
             userList = new List<User>();
         }
