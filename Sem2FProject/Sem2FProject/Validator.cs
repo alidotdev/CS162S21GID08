@@ -10,7 +10,6 @@ namespace Sem2FProject
     {
         private static Validator validator;
         private Validator() { }
-
         public static Validator GetInstance()
         {
             if (validator == null)
@@ -22,7 +21,7 @@ namespace Sem2FProject
         public bool isValidAlphaStr(String str)
         {
             int len = str.Length;
-            if (len > 1)
+            if (len >= 3 && len <= 25)
             {
                 for (int i = 0; i < len; i++)
                 {

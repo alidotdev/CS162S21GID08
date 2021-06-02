@@ -136,7 +136,7 @@ namespace Sem2FProject
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button3.Location = new System.Drawing.Point(95, 292);
+            this.button3.Location = new System.Drawing.Point(78, 292);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(140, 35);
             this.button3.TabIndex = 7;

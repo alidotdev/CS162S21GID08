@@ -8,15 +8,11 @@ namespace Sem2FProject
 {
     class Person
     {
-        public Person()
-        {
-            Console.WriteLine("Testing");
-        }
-        private string FirstName { get; set; }
-        private string LastName { get; set; }
-        private int Age { get; set; }
-        private string CNIC { get; set; }
-        private string Email { get; set; }
-        private string Password { get; set; }
+        public String FirstName { get; set; }
+        public String LastName { get; set; }
+        public int Age { get; set; }
+        public String CNIC { get; set; }
+        public String Email { get; set; }
+        public String Password { get; set; }
     }
 }

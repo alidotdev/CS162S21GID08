@@ -8,6 +8,27 @@ namespace Sem2FProject
 {
     class UserData
     {
-        List<User> userList;
+        public List<User> userList
+        {
+            get;
+        }
+        private static UserData userInfo;
+        private UserData()
+        {
+            userList = new List<User>();
+        }
+        public static UserData GetInstance()
+        {
+            if (userInfo == null)
+            {
+                userInfo = new UserData();
+            }
+            return userInfo;
+        }
+        public void AddUser(User us)
+        {
+            userList.Add(us);
+        }
+        
     }
 }

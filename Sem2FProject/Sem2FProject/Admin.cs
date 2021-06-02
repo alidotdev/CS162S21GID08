@@ -8,9 +8,20 @@ namespace Sem2FProject
 {
     class Admin: Person
     {
-        public Admin()
+        private static Admin admin;
+        public static Admin GetInstance()
         {
-            
+            if (admin == null)
+            {
+                admin = new Admin();
+            }
+            return admin;
         }
+        private Admin()
+        {
+            Email = "admin@gmail.com";
+            Password = "Admin123";
+        }
+
     }
 }

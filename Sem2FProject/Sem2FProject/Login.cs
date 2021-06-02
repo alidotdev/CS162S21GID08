@@ -43,13 +43,16 @@ namespace Sem2FProject
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (emailBox.Text == "admin")
+            String email = emailBox.Text;
+            String pwd = passwordBox.Text;
+            if (email== Admin.GetInstance().Email &&pwd==Admin.GetInstance().Password)
             {
                 this.Hide();
                 new AdminHome().Show();
             }
             else
             {
+                
                 this.Hide();
                 new UserHome().Show();
             }
