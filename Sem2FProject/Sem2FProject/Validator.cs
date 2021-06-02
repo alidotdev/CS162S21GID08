@@ -69,7 +69,7 @@ namespace Sem2FProject
             {
                 for (int i = 0; i < EmailID.Length; i++)
                 {
-                    if (!(EmailID.[i] >= 'A' && EmailID[i] <= 'Z'))
+                    if (!(EmailID[i] >= 'A' && EmailID[i] <= 'Z'))
                     {
                         if (!(EmailID[i] >= 'a' && EmailID[i] <= 'z'))
                         {
