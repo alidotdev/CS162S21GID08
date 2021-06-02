@@ -10,7 +10,7 @@ namespace Sem2FProject
     {
         public Admin()
         {
-            Console.WriteLine("My name is Muhammad Ali Murtaza");
+            
         }
     }
 }

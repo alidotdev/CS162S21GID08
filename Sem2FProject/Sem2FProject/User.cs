@@ -10,7 +10,7 @@ namespace Sem2FProject
     {
         public User()
         {
-            Console.WriteLine("Your name YDRGZM");
+            
         }
     }
 }
