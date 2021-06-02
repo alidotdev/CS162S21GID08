@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace Sem2FProject
 {
-    public partial class Form2 : Form
+    public partial class Welcome : Form
     {
-        public Form2()
+        public Welcome()
         {
             InitializeComponent();
            

@@ -15,11 +15,13 @@ namespace Sem2FProject
         public Login()
         {
             InitializeComponent();
+            label5.Hide();
+            label6.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            new Form1().Show();
+            new CreatNewAccount().Show();
             this.Hide();
         }
 
@@ -43,30 +45,45 @@ namespace Sem2FProject
 
         private void button1_Click(object sender, EventArgs e)
         {
+            
             String email = emailBox.Text;
             String pwd = passwordBox.Text;
-            if (email== Admin.GetInstance().Email &&pwd==Admin.GetInstance().Password)
+            if (Validator.GetInstance().isValidEmail(email) && Validator.GetInstance().isValidPassword(pwd))
             {
-                this.Hide();
-                new AdminHome().Show();
-            }
-            else if(email!=null)
-            {
-                List<User> list = UserData.GetInstance().userList;
-                for (int i = 0; i < list.Count; i++)
+
+                if (email == Admin.GetInstance().Email && pwd == Admin.GetInstance().Password)
                 {
-                    if (email == list[i].Email && pwd == list[i].Password)
+                    this.Hide();
+                    new AdminHome().Show();
+                }
+                else
+                {
+                    List<User> list = UserData.GetInstance().userList;
+                    for (int i = 0; i < list.Count; i++)
                     {
-                        this.Hide();
-                        new UserHome().Show();
-                        break;
+                        if (email == list[i].Email && pwd == list[i].Password)
+                        {
+                            this.Hide();
+                            new UserHome().Show();
+                            break;
+                        }
                     }
+                    MessageBox.Show("Wrong Credentials!\n       Try again");
                 }
             }
             else
             {
-                MessageBox.Show("Enter Data!");
+                if(!(Validator.GetInstance().isValidEmail(email)))
+                {
+                    label5.Show();
+                }
+                if(!(Validator.GetInstance().isValidPassword(pwd)))
+                {
+                    label6.Show();
+                }
+
             }
+
         }
 
         private void passwordBox_KeyPress(object sender, KeyPressEventArgs e)
@@ -85,5 +102,46 @@ namespace Sem2FProject
             }
         }
 
+       
+       
+
+        private void emailBox_ControlRemoved(object sender, ControlEventArgs e)
+        {
+            string email = emailBox.Text;
+            if (Validator.GetInstance().isValidEmail(email))
+            {
+                label5.Hide();
+            }
+            else
+            {
+                label5.Show();
+            }
+        }
+
+        private void passwordBox_ControlRemoved(object sender, ControlEventArgs e)
+        {
+            string pass = passwordBox.Text;
+            if (Validator.GetInstance().isValidPassword(pass))
+            {
+                label6.Hide();
+            }
+            else
+            {
+                label6.Show();
+            }
+        }
+
+       
+       
+
+        private void emailBox_Click(object sender, EventArgs e)
+        {
+            label5.Hide();
+        }
+
+        private void passwordBox_Click(object sender, EventArgs e)
+        {
+            label6.Hide();
+        }
     }
 }

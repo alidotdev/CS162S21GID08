@@ -1,7 +1,7 @@
 ﻿
 namespace Sem2FProject
 {
-    partial class Form2
+    partial class Welcome
     {
         /// <summary>
         /// Required designer variable.
