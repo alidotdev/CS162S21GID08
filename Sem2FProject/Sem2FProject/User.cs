@@ -8,5 +8,9 @@ namespace Sem2FProject
 {
     class User: Person
     {
+        public User()
+        {
+            Console.WriteLine("Your name YDRGZM");
+        }
     }
 }
