@@ -16,7 +16,15 @@ namespace Sem2FProject
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Login());
+            
+            MessageBox.Show("I am working");
+            MyWallet m = new MyWallet();
+            MessageBox.Show(m.WalletIDGen());
+            MyWallet n = new MyWallet();
+            //n.DepositMoney(1000000);
+            MessageBox.Show(""+n.WalletIDGen());
+            MessageBox.Show("Code is ending");
+            Application.Run();
         }
     }
 }
