@@ -156,7 +156,6 @@
     <Compile Include="UserHome.designer.cs">
       <DependentUpon>UserHome.cs</DependentUpon>
     </Compile>
-    <Compile Include="Validator.cs" />
     <EmbeddedResource Include="AddAirport.resx">
       <DependentUpon>AddAirport.cs</DependentUpon>
     </EmbeddedResource>

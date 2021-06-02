@@ -15,11 +15,17 @@ namespace Sem2FProject
         public CancelFlight()
         {
             InitializeComponent();
+            label3.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             textBox1.Text = "";
+        }
+
+        private void textBox1_Click(object sender, EventArgs e)
+        {
+            label3.Hide();
         }
     }
 }
