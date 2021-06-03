@@ -59,54 +59,8 @@ namespace Sem2FProject
                 gender = "Female";
             }
             if (v.isValidAlphaStr(firstN) && v.isValidAlphaStr(LastN) && v.isValidEmail(email)
-                 && v.isValidContPhone(contact) && v.isValidPassword(pwd))
+                 && v.isValidPassword(pwd))
             {
-
-                User user = new User();
-                user.FirstName = firstN;
-                user.LastName = LastN;
-                user.CNIC = cnic;
-                user.Email = email;
-                user.Gender = gender;
-                user.Age = age;
-                user.Password = pwd;
-                UserData.GetInstance().AddUser(user);
-
-                this.Hide();
-                new Login().Show();
-            }
-            else
-            {
-                if (!(v.isValidAlphaStr(firstN)))
-                {
-                    label10.Show();
-                }
-                if (!(v.isValidAlphaStr(LastN)))
-                {
-                    label11.Show();
-                }
-                if (!(v.isValidEmail(email)))
-                {
-                    label12.Show();
-                }
-
-                if (!(v.isValidPassword(pwd)))
-                {
-                    label15.Show();
-                }
-
-            }if (maleBtn.Checked)
-            {
-                gender = "Male";
-            }
-            else
-            {
-                gender = "Female";
-            }
-            if (v.isValidAlphaStr(firstN) && v.isValidAlphaStr(LastN) && v.isValidEmail(email)
-                 && v.isValidContPhone(contact) && v.isValidPassword(pwd))
-            {
-
                 User user = new User();
                 user.FirstName = firstN;
                 user.LastName = LastN;
@@ -141,6 +95,7 @@ namespace Sem2FProject
                 }
 
             }
+            
         }
 
         private void resetBtn_Click(object sender, EventArgs e)

@@ -93,6 +93,7 @@
     <Compile Include="CancelFlightTicket.designer.cs">
       <DependentUpon>CancelFlightTicket.cs</DependentUpon>
     </Compile>
+    <Compile Include="Email.cs" />
     <Compile Include="ForgotPassword.cs">
       <SubType>Form</SubType>
     </Compile>

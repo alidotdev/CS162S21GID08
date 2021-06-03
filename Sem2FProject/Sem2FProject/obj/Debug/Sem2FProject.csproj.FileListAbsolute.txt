@@ -34,8 +34,6 @@ E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.Ad
 E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.BookFlight.resources
 E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.CancelFlightTicket.resources
 E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.ForgotPassword.resources
-E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.Form1.resources
-E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.Form2.resources
 E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.Login.resources
 E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.UpdateFlightTicket.resources
 E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.UserHome.resources
@@ -64,3 +62,6 @@ C:\Users\Muhammad Ali Murtaza\OneDrive\Desktop\Semester 2\OOP Theory\Final Proje
 C:\Users\Muhammad Ali Murtaza\OneDrive\Desktop\Semester 2\OOP Theory\Final Project\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.CreatNewAccount.resources
 C:\Users\Muhammad Ali Murtaza\OneDrive\Desktop\Semester 2\OOP Theory\Final Project\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.Welcome.resources
 C:\Users\Muhammad Ali Murtaza\OneDrive\Desktop\Semester 2\OOP Theory\Final Project\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.AddAirport.resources
+E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.AddAirport.resources
+E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.CreatNewAccount.resources
+E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.Welcome.resources

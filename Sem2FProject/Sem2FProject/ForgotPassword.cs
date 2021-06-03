@@ -21,35 +21,34 @@ namespace Sem2FProject
             label5.Hide();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void SendBtn_Click(object sender, EventArgs e)
         {
-            
+            bool flag = false;
+            String mail = EmailBox.Text;
+            String Fname = FNameBox.Text;
+            List<User> list = UserData.GetInstance().userList;
 
-            var fromAddress = new MailAddress("muhammadalimurtaza@gmail.com", "Muhammad Ali Murtaza");
-            var toAddress = new MailAddress("hafizmuhammadalimurtaza997@gmail.com", "Ali");
-            const string fromPassword = "fromPassword";
-            const string subject = "Testing email";
-            const string body = "This isthe first email send by program to test the " +
-                "validity of sendng emails though c#";
-
-            var smtp = new SmtpClient
+            for (int i = 0; i < list.Count; i++)
             {
-                Host = "smtp.gmail.com",
-                Port = 587,
-                EnableSsl = true,
-                DeliveryMethod = SmtpDeliveryMethod.Network,
-                UseDefaultCredentials = false,
-                Credentials = new NetworkCredential(fromAddress.Address, fromPassword)
-            };
-            using (var message = new MailMessage(fromAddress, toAddress)
-            {
-                Subject = subject,
-                Body = body
-            })
-            {
-                smtp.Send(message);
+                if (list[i].FirstName == Fname && list[i].Email == mail)
+                {
+                    Email em = new Email(list[i]);
+                    if (em.SendPwdRecoveryEmail())
+                    {
+                        flag = true;
+                        this.Hide();
+                        new Login().Show();
+                    }
+                }
             }
-            MessageBox.Show("Mail sent");
+            if (!flag)
+            {
+                MessageBox.Show("Error! Try Again, Check your provided details");
+            }
+        }
+
+        private void backBtn_Click(object sender, EventArgs e)
+        {
             this.Hide();
             new Login().Show();
         }
