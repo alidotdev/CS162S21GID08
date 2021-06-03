@@ -61,5 +61,10 @@ namespace Sem2FProject
            
             return ""+ch+day;
         }
+
+        public int MyBalance()
+        {
+            return Balance;
+        }
     }
 }

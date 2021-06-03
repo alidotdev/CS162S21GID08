@@ -17,31 +17,34 @@ namespace Sem2FProject
         {
             InitializeComponent();
             Type = type;
-            if (Type == "Admin")
-            {
-                label9.Text = "Admin Profile";
-                fNameBox.Text = Admin.GetInstance().FirstName;
-                lNameBox.Text = Admin.GetInstance().LastName;
-                emailBox.Text = Admin.GetInstance().Email;
-                passwordBox.Text = Admin.GetInstance().Password;
-                maskedTextBox1.Text = Admin.GetInstance().CNIC;
-                if (Admin.GetInstance().Gender == "Male")
-                {
-                    maleBtn.Checked=true;
-                }
-                else
-                {
-                    femaleBtn.Checked=true;
-                }
-                if (Admin.GetInstance().Age >= 18)
-                {
-                    numericUpDown1.Value = (decimal)Admin.GetInstance().Age;
-                }
-                else
-                {
-                    numericUpDown1.Value = numericUpDown1.Minimum;
-                }
-            }
+            // Sir my doutes are here talk later about it
+            //if (Type == "Admin")
+            //{
+            //    label9.Text = "Admin Profile";
+            //    fNameBox.Text = Admin.GetInstance().FirstName;
+            //    lNameBox.Text = Admin.GetInstance().LastName;
+            //    emailBox.Text = Admin.GetInstance().Email;
+            //    passwordBox.Text = Admin.GetInstance().Password;
+            //    maskedTextBox1.Text = Admin.GetInstance().CNIC;
+            //    if (Admin.GetInstance().Gender == "Male")
+            //    {
+            //        maleBtn.Checked = true;
+                    
+            //    }
+            //    else
+            //    {
+            //        femaleBtn.Checked = true;
+            //    }
+            //    if (Admin.GetInstance().Age >= 18)
+            //    {
+            //        numericUpDown1.Value = (decimal)Admin.GetInstance().Age;
+            //    }
+            //    else
+            //    {
+            //        numericUpDown1.Value = numericUpDown1.Minimum;
+            //    }
+            //}
+            label4.Hide();
             label10.Hide();
             label11.Hide();
             label12.Hide();
@@ -74,7 +77,6 @@ namespace Sem2FProject
             String email = emailBox.Text;
             String pwd = passwordBox.Text;
             int age = (int)numericUpDown1.Value;
-
             String gender = "";
             if (maleBtn.Checked)
             {
@@ -85,21 +87,21 @@ namespace Sem2FProject
                 gender = "Female";
             }
             if (v.isValidAlphaStr(firstN) && v.isValidAlphaStr(LastN) && v.isValidEmail(email)
-                 && v.isValidPassword(pwd))
+                 && v.isValidPassword(pwd) && cnic.Length == 15)
             {
 
                 this.Hide();
                 if (Type == "User")
                 {
-                User user = new User();
-                user.FirstName = firstN;
-                user.LastName = LastN;
-                user.CNIC = cnic;
-                user.Email = email;
-                user.Gender = gender;
-                user.Age = age;
-                user.Password = pwd;
-                UserData.GetInstance().AddUser(user);
+                    User user = new User();
+                    user.FirstName = firstN;
+                    user.LastName = LastN;
+                    user.CNIC = cnic;
+                    user.Email = email;
+                    user.Gender = gender;
+                    user.Age = age;
+                    user.Password = pwd;
+                    UserData.GetInstance().AddUser(user);
                     new Login().Show();
                 }
                 else if (Type == "Admin" || Type == "AdminU")
@@ -132,6 +134,10 @@ namespace Sem2FProject
                 if (!(v.isValidPassword(pwd)))
                 {
                     label15.Show();
+                }
+                if(!(cnic.Length == 15))
+                {
+                    label4.Show();
                 }
 
             }
@@ -169,6 +175,11 @@ namespace Sem2FProject
             maleBtn.Checked = false;
             femaleBtn.Checked = false;
             passwordBox.Text = "";
+            label4.Hide();
+            label10.Hide();
+            label11.Hide();
+            label12.Hide();
+            label15.Hide();
         }
 
         private void backBtn_Click(object sender, EventArgs e)
@@ -182,6 +193,11 @@ namespace Sem2FProject
             {
                 new AdminHome().Show();
             }
+        }
+
+        private void maskedTextBox1_Click(object sender, EventArgs e)
+        {
+            label4.Hide();
         }
     }
 }

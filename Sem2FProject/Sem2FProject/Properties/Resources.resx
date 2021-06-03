@@ -118,11 +118,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="SirSamyan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\SirSamyan.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icons8_user_shield_60px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8_user_shield_60px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8_circled_user_male_skin_type_7_60px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8_circled_user_male_skin_type_7_60px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8_intel_isef_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8_intel_isef_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -130,13 +130,19 @@
   <data name="icons8_circled_user_male_skin_type_7_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8_circled_user_male_skin_type_7_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="plane-841441_19201" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\plane-841441_192011.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8_circled_user_male_skin_type_7_60px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_circled_user_male_skin_type_7_60px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8_airplane_take_off_60px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8_airplane_take_off_60px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="plane-841441_19201" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\plane-841441_192011.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icons8_dyndns_70px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8_dyndns_70px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SirSamyan1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\SirSamyan.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

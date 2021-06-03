@@ -215,6 +215,9 @@
     <EmbeddedResource Include="UserHome.resx">
       <DependentUpon>UserHome.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="..\.editorconfig">
+      <Link>.editorconfig</Link>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -235,6 +238,7 @@
     <None Include="Resources\icons8_user_shield_60px.png" />
     <None Include="Resources\icons8_intel_isef_96px.png" />
     <None Include="Resources\icons8_dyndns_70px.png" />
+    <Content Include="Images\SirSamyan.jpg" />
     <Content Include="Resources\plane-841441_19201.jpg" />
     <None Include="Resources\plane-841441_192011.jpg" />
   </ItemGroup>

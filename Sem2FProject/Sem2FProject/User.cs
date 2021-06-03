@@ -8,6 +8,7 @@ namespace Sem2FProject
 {
     class User: Person
     {
+        public MyWallet wallet { get; set; }
         public User()
         {
             

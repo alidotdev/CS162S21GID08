@@ -26,31 +26,52 @@ namespace Sem2FProject
             bool flag = false;
             String mail = EmailBox.Text;
             String Fname = FNameBox.Text;
-            List<User> list = UserData.GetInstance().userList;
-
-            for (int i = 0; i < list.Count; i++)
+            Validator v = Validator.GetInstance();
+            if (v.isValidEmail(mail) && v.isValidAlphaStr(Fname))
             {
-                if (list[i].FirstName == Fname && list[i].Email == mail)
+
+                List<User> list = UserData.GetInstance().userList;
+
+                for (int i = 0; i < list.Count; i++)
                 {
-                    Email em = new Email(list[i]);
-                    if (em.SendPwdRecoveryEmail())
+                    if (list[i].FirstName == Fname && list[i].Email == mail)
                     {
-                        flag = true;
-                        this.Hide();
-                        new Login().Show();
+                        Email email = Email.GetInstance();
+                        if (email.SendPwdRecoveryEmail(list[i]))
+                        {
+                            flag = true;
+                            this.Hide();
+                            new Login().Show();
+                        }
                     }
                 }
+                if(!(flag))
+                {
+                    MessageBox.Show("No data found for entered credentials");
+                }
             }
-            if (!flag)
+            else
             {
-                MessageBox.Show("Error! Try Again, Check your provided details");
+                if (!(v.isValidEmail(mail))) { label5.Show(); }
+                if (!(v.isValidAlphaStr(Fname))) { label4.Show(); }
             }
+
         }
 
         private void backBtn_Click(object sender, EventArgs e)
         {
             this.Hide();
             new Login().Show();
+        }
+
+        private void FNameBox_Click(object sender, EventArgs e)
+        {
+            label4.Hide();
+        }
+
+        private void EmailBox_Click(object sender, EventArgs e)
+        {
+            label5.Hide();
         }
     }
 }
