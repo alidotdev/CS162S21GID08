@@ -12,9 +12,20 @@ namespace Sem2FProject
 {
     public partial class CreatNewAccount : Form
     {
-        public CreatNewAccount()
+        String Type { get; set; }
+        public CreatNewAccount(String type)
         {
             InitializeComponent();
+            Type = type;
+            if (Type == "Admin")
+            {
+                label9.Text = "Admin Profile";
+                fNameBox.Text=Admin.GetInstance().FirstName;
+                lNameBox.Text= Admin.GetInstance().LastName;
+                emailBox.Text= Admin.GetInstance().Email;
+                passwordBox.Text=Admin.GetInstance().Password;
+                numericUpDown1.Value=(decimal) Admin.GetInstance().Age;
+            }
             label10.Hide();
             label11.Hide();
             label12.Hide();
@@ -72,7 +83,14 @@ namespace Sem2FProject
                 UserData.GetInstance().AddUser(user);
 
                 this.Hide();
-                new Login().Show();
+                if (Type == "User")
+                {
+                    new Login().Show();
+                }
+                else if (Type == "Admin")
+                {
+                    new AdminHome().Show();
+                }
             }
             else
             {
@@ -98,17 +116,7 @@ namespace Sem2FProject
             
         }
 
-        private void resetBtn_Click(object sender, EventArgs e)
-        {
-            fNameBox.Text = "";
-            lNameBox.Text = "";
-            emailBox.Text = "";
-            maskedTextBox2.Text = "";
-            maskedTextBox1.Text = "";
-            maleBtn.Checked = false;
-            femaleBtn.Checked = false;
-            passwordBox.Text = "";
-        }
+       
 
         private void fNameBox_Click(object sender, EventArgs e)
         {
@@ -128,6 +136,30 @@ namespace Sem2FProject
         private void passwordBox_Click(object sender, EventArgs e)
         {
             label15.Hide();
+        }
+
+        private void resetBtn_Click(object sender, EventArgs e)
+        {
+            fNameBox.Text = "";
+            lNameBox.Text = "";
+            emailBox.Text = "";
+            maskedTextBox2.Text = "";
+            maskedTextBox1.Text = "";
+            maleBtn.Checked = false;
+            femaleBtn.Checked = false;
+            passwordBox.Text = "";
+        }
+
+        private void backBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            if (Type == "User")
+            {
+                new Login().Show();
+            }else if (Type == "Admin")
+            {
+                new AdminHome().Show();
+            }
         }
     }
 }

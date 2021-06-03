@@ -21,7 +21,7 @@ namespace Sem2FProject
 
         private void button2_Click(object sender, EventArgs e)
         {
-            new CreatNewAccount().Show();
+            new CreatNewAccount("User").Show();
             this.Hide();
         }
 

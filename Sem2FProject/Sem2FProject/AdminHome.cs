@@ -23,5 +23,120 @@ namespace Sem2FProject
             new Login().Show();
         }
 
+        private void ProfileNotification()
+        {
+            DialogResult res = MessageBox.Show("Please complete your Profile details to use this System!", "First Time Loading", MessageBoxButtons.OK);
+            if (res == DialogResult.OK)
+            {
+                this.Hide();
+                new AdminProfile().Show();
+            }
+        }
+
+        private void ProfileLabel_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new CreatNewAccount("Admin").Show();
+        }
+
+        private void panel9_Click(object sender, EventArgs e)
+        {
+            ProfileLabel_Click(sender, e);
+        }
+
+        private void AddFlightLabel_Click(object sender, EventArgs e)
+        {
+            if (Admin.GetInstance().Age != 0)
+            {
+                this.Hide();
+                new NewFlight().Show();
+            }
+            else
+            {
+                ProfileNotification();
+            }
+        }
+
+        private void UpdateFlightLabel_Click(object sender, EventArgs e)
+        {
+            if (Admin.GetInstance().Age != 0)
+            {
+                this.Hide();
+                new UpdateFlight().Show();
+            }
+            else
+            {
+                ProfileNotification();
+            }
+        }
+
+        private void CancelFlightLabel_Click(object sender, EventArgs e)
+        {
+            if (Admin.GetInstance().Age != 0)
+            {
+                this.Hide();
+                new CancelFlight().Show();
+            }
+            else
+            {
+                ProfileNotification();
+            }
+        }
+
+        private void ViewFlightLabel_Click(object sender, EventArgs e)
+        {
+            if (Admin.GetInstance().Age != 0)
+            {
+                this.Hide();
+                new AllFlights().Show();
+            }
+            else
+            {
+                ProfileNotification();
+            }
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+            if (Admin.GetInstance().Age != 0)
+            {
+                this.Hide();
+                new CreatNewAccount().Show();
+            }
+            else
+            {
+                ProfileNotification();
+            }
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+            if (Admin.GetInstance().Age != 0)
+            {
+            }
+            else
+            {
+                ProfileNotification();
+            }
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+            if (Admin.GetInstance().Age != 0)
+            {
+            }
+            else
+            {
+                ProfileNotification();
+            }
+        }
+
+        private void BodyPanel_Click(object sender, EventArgs e)
+        {
+            if (Admin.GetInstance().Age == 0)
+            {
+                ProfileNotification();
+            }
+        }
     }
 }
