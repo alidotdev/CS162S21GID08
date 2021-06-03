@@ -29,7 +29,7 @@ namespace Sem2FProject
             if (res == DialogResult.OK)
             {
                 this.Hide();
-                new AdminProfile().Show();
+                new CreatNewAccount("Admin").Show();
             }
         }
 
@@ -101,7 +101,7 @@ namespace Sem2FProject
             if (Admin.GetInstance().Age != 0)
             {
                 this.Hide();
-                new CreatNewAccount().Show();
+                new CreatNewAccount("AdminU").Show();
             }
             else
             {
@@ -137,6 +137,12 @@ namespace Sem2FProject
             {
                 ProfileNotification();
             }
+        }
+
+        private void SignOutLabel_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new Login().Show();
         }
     }
 }

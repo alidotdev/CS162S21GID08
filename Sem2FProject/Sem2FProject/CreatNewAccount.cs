@@ -20,11 +20,27 @@ namespace Sem2FProject
             if (Type == "Admin")
             {
                 label9.Text = "Admin Profile";
-                fNameBox.Text=Admin.GetInstance().FirstName;
-                lNameBox.Text= Admin.GetInstance().LastName;
-                emailBox.Text= Admin.GetInstance().Email;
-                passwordBox.Text=Admin.GetInstance().Password;
-                numericUpDown1.Value=(decimal) Admin.GetInstance().Age;
+                fNameBox.Text = Admin.GetInstance().FirstName;
+                lNameBox.Text = Admin.GetInstance().LastName;
+                emailBox.Text = Admin.GetInstance().Email;
+                passwordBox.Text = Admin.GetInstance().Password;
+                maskedTextBox1.Text = Admin.GetInstance().CNIC;
+                if (Admin.GetInstance().Gender == "Male")
+                {
+                    maleBtn.Checked=true;
+                }
+                else
+                {
+                    femaleBtn.Checked=true;
+                }
+                if (Admin.GetInstance().Age >= 18)
+                {
+                    numericUpDown1.Value = (decimal)Admin.GetInstance().Age;
+                }
+                else
+                {
+                    numericUpDown1.Value = numericUpDown1.Minimum;
+                }
             }
             label10.Hide();
             label11.Hide();
@@ -56,11 +72,10 @@ namespace Sem2FProject
             String LastN = lNameBox.Text;
             String cnic = maskedTextBox1.Text;
             String email = emailBox.Text;
-            String contact = maskedTextBox2.Text;
             String pwd = passwordBox.Text;
             int age = (int)numericUpDown1.Value;
-            
-            String gender="";
+
+            String gender = "";
             if (maleBtn.Checked)
             {
                 gender = "Male";
@@ -72,6 +87,10 @@ namespace Sem2FProject
             if (v.isValidAlphaStr(firstN) && v.isValidAlphaStr(LastN) && v.isValidEmail(email)
                  && v.isValidPassword(pwd))
             {
+
+                this.Hide();
+                if (Type == "User")
+                {
                 User user = new User();
                 user.FirstName = firstN;
                 user.LastName = LastN;
@@ -81,14 +100,17 @@ namespace Sem2FProject
                 user.Age = age;
                 user.Password = pwd;
                 UserData.GetInstance().AddUser(user);
-
-                this.Hide();
-                if (Type == "User")
-                {
                     new Login().Show();
                 }
-                else if (Type == "Admin")
+                else if (Type == "Admin" || Type == "AdminU")
                 {
+                    Admin.GetInstance().FirstName = firstN;
+                    Admin.GetInstance().LastName = LastN;
+                    Admin.GetInstance().CNIC = cnic;
+                    Admin.GetInstance().Email = email;
+                    Admin.GetInstance().Gender = gender;
+                    Admin.GetInstance().Age = age;
+                    Admin.GetInstance().Password = pwd;
                     new AdminHome().Show();
                 }
             }
@@ -113,10 +135,10 @@ namespace Sem2FProject
                 }
 
             }
-            
+
         }
 
-       
+
 
         private void fNameBox_Click(object sender, EventArgs e)
         {
@@ -143,7 +165,6 @@ namespace Sem2FProject
             fNameBox.Text = "";
             lNameBox.Text = "";
             emailBox.Text = "";
-            maskedTextBox2.Text = "";
             maskedTextBox1.Text = "";
             maleBtn.Checked = false;
             femaleBtn.Checked = false;
@@ -156,7 +177,8 @@ namespace Sem2FProject
             if (Type == "User")
             {
                 new Login().Show();
-            }else if (Type == "Admin")
+            }
+            else if (Type == "Admin")
             {
                 new AdminHome().Show();
             }

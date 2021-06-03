@@ -24,7 +24,7 @@ namespace Sem2FProject
         {
             ReqUser = user;
             ToMailAddress = new MailAddress(ReqUser.Email, ReqUser.FirstName+" "+ReqUser.LastName);
-            PwdBody = String.Format("Hi {0}!\nWe recently received a request to recover your Account {1}.\nYour password is {2}.\nThank you for your patience.", ReqUser.FirstName + " " + ReqUser.LastName,ReqUser.Email,ReqUser.Password);
+            PwdBody = String.Format("Hi {0}!\n\nWe recently received a request to recover your Account {1}.\n\nYour password is {2}.\n\nThank you for your patience.", ReqUser.FirstName + " " + ReqUser.LastName,ReqUser.Email,ReqUser.Password);
         }
 
         public bool SendPwdRecoveryEmail()

@@ -61,6 +61,7 @@ namespace Sem2FProject
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.SignOutLabel = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel17.SuspendLayout();
             this.panel8.SuspendLayout();
@@ -389,6 +390,7 @@ namespace Sem2FProject
             this.BodyPanel.AutoSize = true;
             this.BodyPanel.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BodyPanel.BackColor = System.Drawing.Color.White;
+            this.BodyPanel.Controls.Add(this.SignOutLabel);
             this.BodyPanel.Controls.Add(this.label7);
             this.BodyPanel.Controls.Add(this.label5);
             this.BodyPanel.Controls.Add(this.label9);
@@ -453,6 +455,17 @@ namespace Sem2FProject
             this.label1.Size = new System.Drawing.Size(102, 31);
             this.label1.TabIndex = 5;
             this.label1.Text = "ADMIN";
+            // 
+            // SignOutLabel
+            // 
+            this.SignOutLabel.AutoSize = true;
+            this.SignOutLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.SignOutLabel.Location = new System.Drawing.Point(565, 27);
+            this.SignOutLabel.Name = "SignOutLabel";
+            this.SignOutLabel.Size = new System.Drawing.Size(71, 20);
+            this.SignOutLabel.TabIndex = 15;
+            this.SignOutLabel.Text = "Sign Out";
+            this.SignOutLabel.Click += new System.EventHandler(this.SignOutLabel_Click);
             // 
             // AdminHome
             // 
@@ -522,5 +535,6 @@ namespace Sem2FProject
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.Label ProfileLabel;
         private System.Windows.Forms.Panel panel9;
+        private System.Windows.Forms.Label SignOutLabel;
     }
 }
