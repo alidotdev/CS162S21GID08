@@ -36,7 +36,8 @@ namespace Sem2FProject
         private void ProfileLabel_Click(object sender, EventArgs e)
         {
             this.Hide();
-            new CreatNewAccount("Admin").Show();
+           
+            new AdminProfile().Show();
         }
 
         private void panel9_Click(object sender, EventArgs e)

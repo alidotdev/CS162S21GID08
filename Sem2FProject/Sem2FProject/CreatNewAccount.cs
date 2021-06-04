@@ -17,7 +17,8 @@ namespace Sem2FProject
         {
             InitializeComponent();
             Type = type;
-           
+
+
             label4.Hide();
             label10.Hide();
             label11.Hide();

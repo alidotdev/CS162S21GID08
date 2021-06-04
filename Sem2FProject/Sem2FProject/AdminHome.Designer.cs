@@ -88,8 +88,9 @@ namespace Sem2FProject
             this.panel1.Controls.Add(this.LogoPanel);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(247, 480);
+            this.panel1.Size = new System.Drawing.Size(370, 738);
             this.panel1.TabIndex = 5;
             // 
             // panel17
@@ -97,9 +98,10 @@ namespace Sem2FProject
             this.panel17.Controls.Add(this.label12);
             this.panel17.Controls.Add(this.panel18);
             this.panel17.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel17.Location = new System.Drawing.Point(0, 479);
+            this.panel17.Location = new System.Drawing.Point(0, 729);
+            this.panel17.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(247, 61);
+            this.panel17.Size = new System.Drawing.Size(370, 94);
             this.panel17.TabIndex = 3;
             // 
             // label12
@@ -109,10 +111,10 @@ namespace Sem2FProject
             this.label12.Dock = System.Windows.Forms.DockStyle.Left;
             this.label12.Font = new System.Drawing.Font("Bahnschrift Condensed", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(131)))), ((int)(((byte)(147)))), ((int)(((byte)(163)))));
-            this.label12.Location = new System.Drawing.Point(62, 0);
-            this.label12.Margin = new System.Windows.Forms.Padding(3);
+            this.label12.Location = new System.Drawing.Point(92, 0);
+            this.label12.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(82, 39);
+            this.label12.Size = new System.Drawing.Size(125, 58);
             this.label12.TabIndex = 4;
             this.label12.Text = "USERS";
             this.label12.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -123,8 +125,9 @@ namespace Sem2FProject
             this.panel18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel18.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel18.Location = new System.Drawing.Point(0, 0);
+            this.panel18.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(62, 61);
+            this.panel18.Size = new System.Drawing.Size(92, 94);
             this.panel18.TabIndex = 2;
             // 
             // panel8
@@ -133,9 +136,10 @@ namespace Sem2FProject
             this.panel8.Controls.Add(this.ViewFlightLabel);
             this.panel8.Controls.Add(this.panel15);
             this.panel8.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel8.Location = new System.Drawing.Point(0, 419);
+            this.panel8.Location = new System.Drawing.Point(0, 638);
+            this.panel8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(247, 60);
+            this.panel8.Size = new System.Drawing.Size(370, 91);
             this.panel8.TabIndex = 11;
             // 
             // ViewFlightLabel
@@ -145,10 +149,10 @@ namespace Sem2FProject
             this.ViewFlightLabel.Dock = System.Windows.Forms.DockStyle.Left;
             this.ViewFlightLabel.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ViewFlightLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(131)))), ((int)(((byte)(147)))), ((int)(((byte)(163)))));
-            this.ViewFlightLabel.Location = new System.Drawing.Point(62, 0);
-            this.ViewFlightLabel.Margin = new System.Windows.Forms.Padding(3);
+            this.ViewFlightLabel.Location = new System.Drawing.Point(92, 0);
+            this.ViewFlightLabel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ViewFlightLabel.Name = "ViewFlightLabel";
-            this.ViewFlightLabel.Size = new System.Drawing.Size(147, 25);
+            this.ViewFlightLabel.Size = new System.Drawing.Size(222, 39);
             this.ViewFlightLabel.TabIndex = 6;
             this.ViewFlightLabel.Text = "View All Flight";
             this.ViewFlightLabel.Click += new System.EventHandler(this.ViewFlightLabel_Click);
@@ -158,8 +162,9 @@ namespace Sem2FProject
             this.panel15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel15.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel15.Location = new System.Drawing.Point(0, 0);
+            this.panel15.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(62, 58);
+            this.panel15.Size = new System.Drawing.Size(92, 89);
             this.panel15.TabIndex = 2;
             // 
             // panel7
@@ -168,9 +173,10 @@ namespace Sem2FProject
             this.panel7.Controls.Add(this.CancelFlightLabel);
             this.panel7.Controls.Add(this.panel14);
             this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel7.Location = new System.Drawing.Point(0, 370);
+            this.panel7.Location = new System.Drawing.Point(0, 564);
+            this.panel7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(247, 49);
+            this.panel7.Size = new System.Drawing.Size(370, 74);
             this.panel7.TabIndex = 10;
             // 
             // CancelFlightLabel
@@ -180,10 +186,10 @@ namespace Sem2FProject
             this.CancelFlightLabel.Dock = System.Windows.Forms.DockStyle.Left;
             this.CancelFlightLabel.Font = new System.Drawing.Font("Bahnschrift", 16F);
             this.CancelFlightLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(131)))), ((int)(((byte)(147)))), ((int)(((byte)(163)))));
-            this.CancelFlightLabel.Location = new System.Drawing.Point(62, 0);
-            this.CancelFlightLabel.Margin = new System.Windows.Forms.Padding(3);
+            this.CancelFlightLabel.Location = new System.Drawing.Point(92, 0);
+            this.CancelFlightLabel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.CancelFlightLabel.Name = "CancelFlightLabel";
-            this.CancelFlightLabel.Size = new System.Drawing.Size(140, 27);
+            this.CancelFlightLabel.Size = new System.Drawing.Size(203, 39);
             this.CancelFlightLabel.TabIndex = 5;
             this.CancelFlightLabel.Text = "Cancel Flight";
             this.CancelFlightLabel.Click += new System.EventHandler(this.CancelFlightLabel_Click);
@@ -193,8 +199,9 @@ namespace Sem2FProject
             this.panel14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel14.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel14.Location = new System.Drawing.Point(0, 0);
+            this.panel14.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(62, 47);
+            this.panel14.Size = new System.Drawing.Size(92, 72);
             this.panel14.TabIndex = 1;
             // 
             // panel6
@@ -203,9 +210,10 @@ namespace Sem2FProject
             this.panel6.Controls.Add(this.UpdateFlightLabel);
             this.panel6.Controls.Add(this.panel13);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel6.Location = new System.Drawing.Point(0, 321);
+            this.panel6.Location = new System.Drawing.Point(0, 490);
+            this.panel6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(247, 49);
+            this.panel6.Size = new System.Drawing.Size(370, 74);
             this.panel6.TabIndex = 9;
             // 
             // UpdateFlightLabel
@@ -215,10 +223,10 @@ namespace Sem2FProject
             this.UpdateFlightLabel.Dock = System.Windows.Forms.DockStyle.Left;
             this.UpdateFlightLabel.Font = new System.Drawing.Font("Bahnschrift", 16F);
             this.UpdateFlightLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(131)))), ((int)(((byte)(147)))), ((int)(((byte)(163)))));
-            this.UpdateFlightLabel.Location = new System.Drawing.Point(62, 0);
-            this.UpdateFlightLabel.Margin = new System.Windows.Forms.Padding(3);
+            this.UpdateFlightLabel.Location = new System.Drawing.Point(92, 0);
+            this.UpdateFlightLabel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.UpdateFlightLabel.Name = "UpdateFlightLabel";
-            this.UpdateFlightLabel.Size = new System.Drawing.Size(142, 27);
+            this.UpdateFlightLabel.Size = new System.Drawing.Size(205, 39);
             this.UpdateFlightLabel.TabIndex = 4;
             this.UpdateFlightLabel.Text = "Update Flight";
             this.UpdateFlightLabel.Click += new System.EventHandler(this.UpdateFlightLabel_Click);
@@ -228,8 +236,9 @@ namespace Sem2FProject
             this.panel13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel13.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel13.Location = new System.Drawing.Point(0, 0);
+            this.panel13.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(62, 47);
+            this.panel13.Size = new System.Drawing.Size(92, 72);
             this.panel13.TabIndex = 1;
             // 
             // panel5
@@ -238,9 +247,10 @@ namespace Sem2FProject
             this.panel5.Controls.Add(this.AddFlightLabel);
             this.panel5.Controls.Add(this.panel12);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel5.Location = new System.Drawing.Point(0, 272);
+            this.panel5.Location = new System.Drawing.Point(0, 416);
+            this.panel5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(247, 49);
+            this.panel5.Size = new System.Drawing.Size(370, 74);
             this.panel5.TabIndex = 8;
             // 
             // AddFlightLabel
@@ -250,10 +260,10 @@ namespace Sem2FProject
             this.AddFlightLabel.Dock = System.Windows.Forms.DockStyle.Left;
             this.AddFlightLabel.Font = new System.Drawing.Font("Bahnschrift", 16F);
             this.AddFlightLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(131)))), ((int)(((byte)(147)))), ((int)(((byte)(163)))));
-            this.AddFlightLabel.Location = new System.Drawing.Point(62, 0);
-            this.AddFlightLabel.Margin = new System.Windows.Forms.Padding(3);
+            this.AddFlightLabel.Location = new System.Drawing.Point(92, 0);
+            this.AddFlightLabel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.AddFlightLabel.Name = "AddFlightLabel";
-            this.AddFlightLabel.Size = new System.Drawing.Size(111, 27);
+            this.AddFlightLabel.Size = new System.Drawing.Size(161, 39);
             this.AddFlightLabel.TabIndex = 3;
             this.AddFlightLabel.Text = "Add Flight";
             this.AddFlightLabel.Click += new System.EventHandler(this.AddFlightLabel_Click);
@@ -263,8 +273,9 @@ namespace Sem2FProject
             this.panel12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel12.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel12.Location = new System.Drawing.Point(0, 0);
+            this.panel12.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(62, 47);
+            this.panel12.Size = new System.Drawing.Size(92, 72);
             this.panel12.TabIndex = 1;
             // 
             // panel4
@@ -273,9 +284,10 @@ namespace Sem2FProject
             this.panel4.Controls.Add(this.FlightLabel);
             this.panel4.Controls.Add(this.panel10);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel4.Location = new System.Drawing.Point(0, 223);
+            this.panel4.Location = new System.Drawing.Point(0, 342);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(247, 49);
+            this.panel4.Size = new System.Drawing.Size(370, 74);
             this.panel4.TabIndex = 7;
             // 
             // FlightLabel
@@ -285,10 +297,10 @@ namespace Sem2FProject
             this.FlightLabel.Dock = System.Windows.Forms.DockStyle.Left;
             this.FlightLabel.Font = new System.Drawing.Font("Bahnschrift Condensed", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FlightLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(131)))), ((int)(((byte)(147)))), ((int)(((byte)(163)))));
-            this.FlightLabel.Location = new System.Drawing.Point(62, 0);
-            this.FlightLabel.Margin = new System.Windows.Forms.Padding(3);
+            this.FlightLabel.Location = new System.Drawing.Point(92, 0);
+            this.FlightLabel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.FlightLabel.Name = "FlightLabel";
-            this.FlightLabel.Size = new System.Drawing.Size(88, 39);
+            this.FlightLabel.Size = new System.Drawing.Size(133, 58);
             this.FlightLabel.TabIndex = 3;
             this.FlightLabel.Text = "Flights";
             // 
@@ -298,8 +310,9 @@ namespace Sem2FProject
             this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel10.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel10.Location = new System.Drawing.Point(0, 0);
+            this.panel10.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(62, 47);
+            this.panel10.Size = new System.Drawing.Size(92, 72);
             this.panel10.TabIndex = 2;
             // 
             // panel3
@@ -308,10 +321,11 @@ namespace Sem2FProject
             this.panel3.Controls.Add(this.ProfileLabel);
             this.panel3.Controls.Add(this.panel9);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(0, 158);
+            this.panel3.Location = new System.Drawing.Point(0, 243);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel3.Name = "panel3";
-            this.panel3.Padding = new System.Windows.Forms.Padding(1);
-            this.panel3.Size = new System.Drawing.Size(247, 65);
+            this.panel3.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel3.Size = new System.Drawing.Size(370, 99);
             this.panel3.TabIndex = 6;
             // 
             // ProfileLabel
@@ -321,10 +335,10 @@ namespace Sem2FProject
             this.ProfileLabel.Dock = System.Windows.Forms.DockStyle.Left;
             this.ProfileLabel.Font = new System.Drawing.Font("Bahnschrift Condensed", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ProfileLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(131)))), ((int)(((byte)(147)))), ((int)(((byte)(163)))));
-            this.ProfileLabel.Location = new System.Drawing.Point(63, 1);
-            this.ProfileLabel.Margin = new System.Windows.Forms.Padding(3);
+            this.ProfileLabel.Location = new System.Drawing.Point(94, 2);
+            this.ProfileLabel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ProfileLabel.Name = "ProfileLabel";
-            this.ProfileLabel.Size = new System.Drawing.Size(86, 39);
+            this.ProfileLabel.Size = new System.Drawing.Size(131, 58);
             this.ProfileLabel.TabIndex = 2;
             this.ProfileLabel.Text = "Profile";
             this.ProfileLabel.Click += new System.EventHandler(this.ProfileLabel_Click);
@@ -335,18 +349,20 @@ namespace Sem2FProject
             this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel9.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel9.ForeColor = System.Drawing.Color.DarkSeaGreen;
-            this.panel9.Location = new System.Drawing.Point(1, 1);
+            this.panel9.Location = new System.Drawing.Point(2, 2);
+            this.panel9.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(62, 61);
+            this.panel9.Size = new System.Drawing.Size(92, 93);
             this.panel9.TabIndex = 1;
             this.panel9.Click += new System.EventHandler(this.panel9_Click);
             // 
             // panel2
             // 
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 95);
+            this.panel2.Location = new System.Drawing.Point(0, 146);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(247, 63);
+            this.panel2.Size = new System.Drawing.Size(370, 97);
             this.panel2.TabIndex = 6;
             // 
             // LogoPanel
@@ -355,8 +371,9 @@ namespace Sem2FProject
             this.LogoPanel.Controls.Add(this.panel16);
             this.LogoPanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.LogoPanel.Location = new System.Drawing.Point(0, 0);
+            this.LogoPanel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.LogoPanel.Name = "LogoPanel";
-            this.LogoPanel.Size = new System.Drawing.Size(247, 95);
+            this.LogoPanel.Size = new System.Drawing.Size(370, 146);
             this.LogoPanel.TabIndex = 6;
             // 
             // label13
@@ -368,10 +385,10 @@ namespace Sem2FProject
             this.label13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.label13.Font = new System.Drawing.Font("Berlin Sans FB", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(216)))), ((int)(((byte)(53)))));
-            this.label13.Location = new System.Drawing.Point(104, 27);
-            this.label13.Margin = new System.Windows.Forms.Padding(3);
+            this.label13.Location = new System.Drawing.Point(156, 42);
+            this.label13.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(77, 38);
+            this.label13.Size = new System.Drawing.Size(116, 58);
             this.label13.TabIndex = 2;
             this.label13.Text = "ARS";
             // 
@@ -380,9 +397,10 @@ namespace Sem2FProject
             this.panel16.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.panel16.BackgroundImage = global::Sem2FProject.Properties.Resources.icons8_dyndns_70px;
-            this.panel16.Location = new System.Drawing.Point(12, 12);
+            this.panel16.Location = new System.Drawing.Point(18, 18);
+            this.panel16.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel16.Name = "panel16";
-            this.panel16.Size = new System.Drawing.Size(75, 71);
+            this.panel16.Size = new System.Drawing.Size(112, 109);
             this.panel16.TabIndex = 0;
             // 
             // BodyPanel
@@ -397,9 +415,10 @@ namespace Sem2FProject
             this.BodyPanel.Controls.Add(this.label8);
             this.BodyPanel.Controls.Add(this.label1);
             this.BodyPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.BodyPanel.Location = new System.Drawing.Point(247, 0);
+            this.BodyPanel.Location = new System.Drawing.Point(370, 0);
+            this.BodyPanel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BodyPanel.Name = "BodyPanel";
-            this.BodyPanel.Size = new System.Drawing.Size(662, 480);
+            this.BodyPanel.Size = new System.Drawing.Size(994, 738);
             this.BodyPanel.TabIndex = 6;
             this.BodyPanel.Click += new System.EventHandler(this.BodyPanel_Click);
             // 
@@ -407,9 +426,12 @@ namespace Sem2FProject
             // 
             this.SignOutLabel.AutoSize = true;
             this.SignOutLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.SignOutLabel.Location = new System.Drawing.Point(565, 27);
+
+            this.SignOutLabel.Location = new System.Drawing.Point(848, 42);
+            this.SignOutLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.SignOutLabel.Name = "SignOutLabel";
-            this.SignOutLabel.Size = new System.Drawing.Size(71, 20);
+            this.SignOutLabel.Size = new System.Drawing.Size(106, 29);
+
             this.SignOutLabel.TabIndex = 15;
             this.SignOutLabel.Text = "Sign Out";
             this.SignOutLabel.Click += new System.EventHandler(this.SignOutLabel_Click);
@@ -418,9 +440,12 @@ namespace Sem2FProject
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label7.Location = new System.Drawing.Point(410, 179);
+
+            this.label7.Location = new System.Drawing.Point(580, 274);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(100, 20);
+            this.label7.Size = new System.Drawing.Size(148, 29);
             this.label7.TabIndex = 15;
             this.label7.Text = "Update User";
             this.label7.Click += new System.EventHandler(this.label7_Click);
@@ -429,9 +454,10 @@ namespace Sem2FProject
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label5.Location = new System.Drawing.Point(218, 178);
+            this.label5.Location = new System.Drawing.Point(327, 274);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(76, 20);
+            this.label5.Size = new System.Drawing.Size(113, 29);
             this.label5.TabIndex = 13;
             this.label5.Text = "Add User";
             this.label5.Click += new System.EventHandler(this.label5_Click);
@@ -440,9 +466,12 @@ namespace Sem2FProject
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label9.Location = new System.Drawing.Point(408, 322);
+
+            this.label9.Location = new System.Drawing.Point(578, 494);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(102, 20);
+            this.label9.Size = new System.Drawing.Size(156, 29);
             this.label9.TabIndex = 6;
             this.label9.Text = "View All User";
             this.label9.Click += new System.EventHandler(this.label9_Click);
@@ -451,9 +480,10 @@ namespace Sem2FProject
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label8.Location = new System.Drawing.Point(215, 321);
+            this.label8.Location = new System.Drawing.Point(322, 494);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(94, 20);
+            this.label8.Size = new System.Drawing.Size(141, 29);
             this.label8.TabIndex = 7;
             this.label8.Text = "Delete User";
             // 
@@ -461,19 +491,21 @@ namespace Sem2FProject
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(289, 27);
+            this.label1.Location = new System.Drawing.Point(434, 42);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(102, 31);
+            this.label1.Size = new System.Drawing.Size(152, 47);
             this.label1.TabIndex = 5;
             this.label1.Text = "ADMIN";
             // 
             // AdminHome
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(909, 480);
+            this.ClientSize = new System.Drawing.Size(1364, 738);
             this.Controls.Add(this.BodyPanel);
             this.Controls.Add(this.panel1);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "AdminHome";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AdminHome";
