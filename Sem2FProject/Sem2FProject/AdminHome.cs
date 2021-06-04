@@ -29,14 +29,15 @@ namespace Sem2FProject
             if (res == DialogResult.OK)
             {
                 this.Hide();
-                new CreatNewAccount("Admin").Show();
+                new AdminProfile().Show();
             }
         }
 
         private void ProfileLabel_Click(object sender, EventArgs e)
         {
             this.Hide();
-            new CreatNewAccount("Admin").Show();
+           
+            new AdminProfile().Show();
         }
 
         private void panel9_Click(object sender, EventArgs e)
