@@ -35,10 +35,12 @@ namespace Sem2FProject
 
         private void AddFlight_Load(object sender, EventArgs e)
         {
+            Flight flight = new Flight();
+            FlightIdLabel.Text = flight.FlightID;
             DeptCombo.Items.Add(AirportData.GetInstance().Airports);
             ArrivalCombo.Items.Add(AirportData.GetInstance().Airports);
             AirlineCombo.Items.Add(AirlineData.GetInstance().AirlineList);
-            for(int i=0;i< AirlineData.GetInstance().AirlineList[0].TotalSeats; i++)
+            for(int i=0;i< 100; i++)
             {
                 SeatCombo.Items.Add(i + 1);
             }
@@ -49,12 +51,22 @@ namespace Sem2FProject
 
         private void CreateBtn_Click(object sender, EventArgs e)
         {
-            String dept = DeptCombo.SelectedItem.ToString();
-            String arr = ArrivalCombo.SelectedItem.ToString();
+            Airport dept = (Airport)DeptCombo.SelectedItem;
+            Airport arr = (Airport)ArrivalCombo.SelectedItem;
             Airline airline = (Airline)AirlineCombo.SelectedItem;
             String seat = SeatCombo.SelectedItem.ToString();
             String classType = ClassCombo.SelectedItem.ToString();
 
+            Flight flight = new Flight();
+            flight.FlightID = FlightIdLabel.Text;
+            flight.Departure = dept;
+            flight.Destination = arr;
+            flight.BookedAirline = airline;
+            flight.ReservedSeats = seat;
+            flight.ClassType = classType;
+            FlightData.GetInstance().AddFlightData(flight);
+            this.Hide();
+            new AdminHome().Show();
         }
     }
 }

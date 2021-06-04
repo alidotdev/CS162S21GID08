@@ -28,6 +28,10 @@ namespace Sem2FProject
         {
             get; set;
         }
+        public String ClassType
+        {
+            get; set;
+        }
         public Flight()
         {
             FlightID = FlightIDGen();

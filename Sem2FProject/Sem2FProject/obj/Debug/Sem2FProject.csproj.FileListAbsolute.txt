@@ -23,7 +23,6 @@ E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.Ad
 E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.AllFlights.resources
 E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.AllReservedSeats.resources
 E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.CancelFlight.resources
-E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.NewFlight.resources
 E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.Properties.Resources.resources
 E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.UpdateFlight.resources
 E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.csproj.GenerateResource.cache
@@ -65,3 +64,5 @@ C:\Users\Muhammad Ali Murtaza\OneDrive\Desktop\Semester 2\OOP Theory\Final Proje
 E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.AddAirport.resources
 E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.CreatNewAccount.resources
 E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.Welcome.resources
+E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.AddFlight.resources
+E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.AddAirline.resources

@@ -19,13 +19,18 @@ namespace Sem2FProject
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            new AdminHome().Show();
         }
 
         private void AllFlights_Load(object sender, EventArgs e)
         {
             List<Flight> list = FlightData.GetInstance().Flights;
-
+            for(int i = 0; i < list.Count; i++)
+            {
+                String[] row = new string[] { list[i].FlightID, list[i].BookedAirline.Name, list[i].Departure.CityName + ", " + list[i].Departure.CountryCode, list[i].Destination.CityName + ", " + list[i].Destination.CountryName, list[i].ReservedSeats };
+                dataGridView1.Rows.Add(row);
+            }
         }
     }
 }
