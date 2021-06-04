@@ -418,7 +418,7 @@ namespace Sem2FProject
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label7.Location = new System.Drawing.Point(387, 178);
+            this.label7.Location = new System.Drawing.Point(410, 179);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(100, 20);
             this.label7.TabIndex = 15;
@@ -440,7 +440,7 @@ namespace Sem2FProject
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label9.Location = new System.Drawing.Point(385, 321);
+            this.label9.Location = new System.Drawing.Point(408, 322);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(102, 20);
             this.label9.TabIndex = 6;
