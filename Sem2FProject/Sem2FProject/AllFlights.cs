@@ -21,5 +21,11 @@ namespace Sem2FProject
         {
 
         }
+
+        private void AllFlights_Load(object sender, EventArgs e)
+        {
+            List<Flight> list = FlightData.GetInstance().Flights;
+
+        }
     }
 }

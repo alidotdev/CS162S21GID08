@@ -50,7 +50,7 @@ namespace Sem2FProject
             if (Admin.GetInstance().Age != 0)
             {
                 this.Hide();
-                new NewFlight().Show();
+                new AddFlight().Show();
             }
             else
             {
@@ -102,7 +102,7 @@ namespace Sem2FProject
             if (Admin.GetInstance().Age != 0)
             {
                 this.Hide();
-                new CreatNewAccount("AdminU").Show();
+                new CreatNewAccount("Admin").Show();
             }
             else
             {

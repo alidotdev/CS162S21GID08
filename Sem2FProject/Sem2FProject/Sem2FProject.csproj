@@ -94,6 +94,8 @@
       <DependentUpon>CancelFlightTicket.cs</DependentUpon>
     </Compile>
     <Compile Include="Email.cs" />
+    <Compile Include="Flight.cs" />
+    <Compile Include="FlightData.cs" />
     <Compile Include="ForgotPassword.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -62,7 +62,6 @@ namespace Sem2FProject
             Gender = read.ReadLine();
             admin.CNIC = read.ReadLine();
             admin.Email = read.ReadLine();
-            MessageBox.Show(admin.Email);
             int age = Int32.Parse(read.ReadLine());
             if (age < 18)
             {

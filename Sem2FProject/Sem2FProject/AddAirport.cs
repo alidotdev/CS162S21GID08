@@ -28,11 +28,12 @@ namespace Sem2FProject
             airport.CountryCode = code;
             airport.CountryName = country;
             AirportData.GetInstance().AddAirport(airport);
+            this.Hide();
         }
 
         private void BackBtn_Click(object sender, EventArgs e)
         {
-            
+            this.Hide();
         }
     }
 }
