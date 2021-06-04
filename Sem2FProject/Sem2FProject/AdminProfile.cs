@@ -17,8 +17,8 @@ namespace Sem2FProject
         public AdminProfile()
         {
             InitializeComponent();
-            MyImage = new Bitmap(@"C:\Users\Muhammad Ali Murtaza\OneDrive\Desktop\Semester 2\OOP Theory\Final Project\CS162S21GID08\Sem2FProject\Sem2FProject\Images\SirSamyan.jpg");
-            pictureBox1.Image = (Image)MyImage;
+            //MyImage = new Bitmap(@"C:\Users\Muhammad Ali Murtaza\OneDrive\Desktop\Semester 2\OOP Theory\Final Project\CS162S21GID08\Sem2FProject\Sem2FProject\Images\SirSamyan.jpg");
+            //pictureBox1.Image = (Image)MyImage;
         }
 
         public Bitmap MyImage { get; private set; }
@@ -26,12 +26,12 @@ namespace Sem2FProject
         private void button1_Click(object sender, EventArgs e)
         {
             var fileContent = string.Empty;
-          
+
 
             using (OpenFileDialog openFileDialog = new OpenFileDialog())
             {
                 openFileDialog.InitialDirectory = "c:\\";
-                openFileDialog.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*";
+                openFileDialog.Filter = "Image Files(*.BMP;*.JPG;*.JPEG;*.PNG)|*.BMP;*.JPG;*.JPEG;*.GIF";
                 openFileDialog.FilterIndex = 2;
                 openFileDialog.RestoreDirectory = true;
                 if (openFileDialog.ShowDialog() == DialogResult.OK)
@@ -48,13 +48,16 @@ namespace Sem2FProject
                     }
                 }
             }
-            //pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            MyImage = new Bitmap(filePath);
-            ////pictureBox1.ClientSize = new Size(147, 158);
-            pictureBox1.Image = (Image)MyImage;
-            //MessageBox.Show(fileContent, "File Content at path: " + filePath, MessageBoxButtons.OK);
+            if (filePath != null)
+            {
+                //pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+                MyImage = new Bitmap(filePath);
+                ////pictureBox1.ClientSize = new Size(147, 158);
+                pictureBox1.Image = (Image)MyImage;
+                //MessageBox.Show(fileContent, "File Content at path: " + filePath, MessageBoxButtons.OK);
+            }
         }
 
-        
+
     }
 }
