@@ -70,6 +70,8 @@ namespace Sem2FProject
                     }
                 }
             }
+            StreamWriter writer = new StreamWriter(filePath);
+
             if (filePath != null)
             {
                 //pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -82,6 +84,7 @@ namespace Sem2FProject
 
         private void button4_Click(object sender, EventArgs e)
         {
+
             Validator v = Validator.GetInstance();
             if (v.isValidAlphaStr(textBox1.Text) && v.isValidEmail(textBox2.Text) && maskedTextBox1.Text.Length == 15
                 && (maleBtn.Checked || femaleBtn.Checked) && v.isValidPassword(passwordBox.Text))
@@ -177,6 +180,8 @@ namespace Sem2FProject
                 passwordBox.PasswordChar = '*';
 
             }
+
+
         }
     }
 }

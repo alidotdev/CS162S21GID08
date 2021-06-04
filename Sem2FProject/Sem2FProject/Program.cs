@@ -17,7 +17,7 @@ namespace Sem2FProject
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             
-            Application.Run(new AdminProfile());
+            Application.Run(new Login());
         }
 
     }

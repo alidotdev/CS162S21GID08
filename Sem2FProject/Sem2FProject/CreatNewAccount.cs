@@ -17,13 +17,15 @@ namespace Sem2FProject
         {
             InitializeComponent();
             Type = type;
+
+
             label4.Hide();
             label10.Hide();
             label11.Hide();
             label12.Hide();
             label15.Hide();
         }
-
+         
         private void Form1_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
@@ -62,30 +64,23 @@ namespace Sem2FProject
             if (v.isValidAlphaStr(firstN) && v.isValidAlphaStr(LastN) && v.isValidEmail(email)
                  && v.isValidPassword(pwd) && cnic.Length == 15)
             {
+                User user = new User();
+                user.FirstName = firstN;
+                user.LastName = LastN;
+                user.CNIC = cnic;
+                user.Email = email;
+                user.Gender = gender;
+                user.Age = age;
+                user.Password = pwd;
+                UserData.GetInstance().AddUser(user);
 
                 this.Hide();
                 if (Type == "User")
                 {
-                    User user = new User();
-                    user.FirstName = firstN;
-                    user.LastName = LastN;
-                    user.CNIC = cnic;
-                    user.Email = email;
-                    user.Gender = gender;
-                    user.Age = age;
-                    user.Password = pwd;
-                    UserData.GetInstance().AddUser(user);
                     new Login().Show();
                 }
-                else if (Type == "Admin" || Type == "AdminU")
+                else if (Type == "Admin")
                 {
-                    Admin.GetInstance().FirstName = firstN;
-                    Admin.GetInstance().LastName = LastN;
-                    Admin.GetInstance().CNIC = cnic;
-                    Admin.GetInstance().Email = email;
-                    Admin.GetInstance().Gender = gender;
-                    Admin.GetInstance().Age = age;
-                    Admin.GetInstance().Password = pwd;
                     new AdminHome().Show();
                 }
             }

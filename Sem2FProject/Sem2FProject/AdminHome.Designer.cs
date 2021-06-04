@@ -426,10 +426,12 @@ namespace Sem2FProject
             // 
             this.SignOutLabel.AutoSize = true;
             this.SignOutLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+
             this.SignOutLabel.Location = new System.Drawing.Point(848, 42);
             this.SignOutLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.SignOutLabel.Name = "SignOutLabel";
             this.SignOutLabel.Size = new System.Drawing.Size(106, 29);
+
             this.SignOutLabel.TabIndex = 15;
             this.SignOutLabel.Text = "Sign Out";
             this.SignOutLabel.Click += new System.EventHandler(this.SignOutLabel_Click);
@@ -438,8 +440,10 @@ namespace Sem2FProject
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+
             this.label7.Location = new System.Drawing.Point(580, 274);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(148, 29);
             this.label7.TabIndex = 15;
@@ -462,8 +466,10 @@ namespace Sem2FProject
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+
             this.label9.Location = new System.Drawing.Point(578, 494);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(156, 29);
             this.label9.TabIndex = 6;
