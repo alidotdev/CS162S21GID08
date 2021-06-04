@@ -29,7 +29,7 @@ namespace Sem2FProject
             if (res == DialogResult.OK)
             {
                 this.Hide();
-                new CreatNewAccount("Admin").Show();
+                new AdminProfile().Show();
             }
         }
 

@@ -17,32 +17,7 @@ namespace Sem2FProject
         {
             InitializeComponent();
             Type = type;
-            // Sir my doutes are here talk later about it
-            if (Type == "Admin")
-            {
-                label9.Text = "Admin Profile";
-                fNameBox.Text = Admin.GetInstance().FirstName;
-                lNameBox.Text = Admin.GetInstance().LastName;
-                emailBox.Text = Admin.GetInstance().Email;
-                passwordBox.Text = Admin.GetInstance().Password;
-                maskedTextBox1.Text = Admin.GetInstance().CNIC;
-                if (Admin.GetInstance().Gender == "Male")
-                {
-                    maleBtn.Checked = true;
-                }
-                else
-                {
-                    femaleBtn.Checked = true;
-                }
-                if (Admin.GetInstance().Age >= 18)
-                {
-                    numericUpDown1.Value = (decimal)Admin.GetInstance().Age;
-                }
-                else
-                {
-                    numericUpDown1.Value = numericUpDown1.Minimum;
-                }
-            }
+           
             label4.Hide();
             label10.Hide();
             label11.Hide();
@@ -88,30 +63,23 @@ namespace Sem2FProject
             if (v.isValidAlphaStr(firstN) && v.isValidAlphaStr(LastN) && v.isValidEmail(email)
                  && v.isValidPassword(pwd) && cnic.Length == 15)
             {
+                User user = new User();
+                user.FirstName = firstN;
+                user.LastName = LastN;
+                user.CNIC = cnic;
+                user.Email = email;
+                user.Gender = gender;
+                user.Age = age;
+                user.Password = pwd;
+                UserData.GetInstance().AddUser(user);
 
                 this.Hide();
                 if (Type == "User")
                 {
-                    User user = new User();
-                    user.FirstName = firstN;
-                    user.LastName = LastN;
-                    user.CNIC = cnic;
-                    user.Email = email;
-                    user.Gender = gender;
-                    user.Age = age;
-                    user.Password = pwd;
-                    UserData.GetInstance().AddUser(user);
                     new Login().Show();
                 }
-                else if (Type == "Admin" || Type == "AdminU")
+                else if (Type == "Admin")
                 {
-                    Admin.GetInstance().FirstName = firstN;
-                    Admin.GetInstance().LastName = LastN;
-                    Admin.GetInstance().CNIC = cnic;
-                    Admin.GetInstance().Email = email;
-                    Admin.GetInstance().Gender = gender;
-                    Admin.GetInstance().Age = age;
-                    Admin.GetInstance().Password = pwd;
                     new AdminHome().Show();
                 }
             }

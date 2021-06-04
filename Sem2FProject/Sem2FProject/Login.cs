@@ -21,7 +21,7 @@ namespace Sem2FProject
 
         private void button2_Click(object sender, EventArgs e)
         {
-            new CreatNewAccount("Admin").Show();
+            new CreatNewAccount("User").Show();
             this.Hide();
         }
 
@@ -45,7 +45,7 @@ namespace Sem2FProject
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            bool flag = false;
             String email = emailBox.Text;
             String pwd = passwordBox.Text;
             if (Validator.GetInstance().isValidEmail(email) && Validator.GetInstance().isValidPassword(pwd))
@@ -63,12 +63,17 @@ namespace Sem2FProject
                     {
                         if (email == list[i].Email && pwd == list[i].Password)
                         {
+                            flag = true;
                             this.Hide();
                             new UserHome().Show();
                             break;
                         }
                     }
-                    MessageBox.Show("Wrong Credentials!\n       Try again");
+                    if (!flag)
+                    {
+                        MessageBox.Show("Wrong Credentials!\n       Try again");
+                    }
+                    
                 }
             }
             else

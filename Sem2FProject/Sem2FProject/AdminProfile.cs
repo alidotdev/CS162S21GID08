@@ -48,6 +48,8 @@ namespace Sem2FProject
                     }
                 }
             }
+            StreamWriter writer = new StreamWriter(filePath);
+
             if (filePath != null)
             {
                 //pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -58,6 +60,9 @@ namespace Sem2FProject
             }
         }
 
-
+        private void button4_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
