@@ -56,12 +56,12 @@ namespace Sem2FProject
             this.label13 = new System.Windows.Forms.Label();
             this.panel16 = new System.Windows.Forms.Panel();
             this.BodyPanel = new System.Windows.Forms.Panel();
+            this.SignOutLabel = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.SignOutLabel = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel17.SuspendLayout();
             this.panel8.SuspendLayout();
@@ -403,6 +403,17 @@ namespace Sem2FProject
             this.BodyPanel.TabIndex = 6;
             this.BodyPanel.Click += new System.EventHandler(this.BodyPanel_Click);
             // 
+            // SignOutLabel
+            // 
+            this.SignOutLabel.AutoSize = true;
+            this.SignOutLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.SignOutLabel.Location = new System.Drawing.Point(565, 27);
+            this.SignOutLabel.Name = "SignOutLabel";
+            this.SignOutLabel.Size = new System.Drawing.Size(71, 20);
+            this.SignOutLabel.TabIndex = 15;
+            this.SignOutLabel.Text = "Sign Out";
+            this.SignOutLabel.Click += new System.EventHandler(this.SignOutLabel_Click);
+            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -455,17 +466,6 @@ namespace Sem2FProject
             this.label1.Size = new System.Drawing.Size(102, 31);
             this.label1.TabIndex = 5;
             this.label1.Text = "ADMIN";
-            // 
-            // SignOutLabel
-            // 
-            this.SignOutLabel.AutoSize = true;
-            this.SignOutLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.SignOutLabel.Location = new System.Drawing.Point(565, 27);
-            this.SignOutLabel.Name = "SignOutLabel";
-            this.SignOutLabel.Size = new System.Drawing.Size(71, 20);
-            this.SignOutLabel.TabIndex = 15;
-            this.SignOutLabel.Text = "Sign Out";
-            this.SignOutLabel.Click += new System.EventHandler(this.SignOutLabel_Click);
             // 
             // AdminHome
             // 

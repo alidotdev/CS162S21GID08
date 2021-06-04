@@ -18,39 +18,38 @@ namespace Sem2FProject
             InitializeComponent();
             Type = type;
             // Sir my doutes are here talk later about it
-            //if (Type == "Admin")
-            //{
-            //    label9.Text = "Admin Profile";
-            //    fNameBox.Text = Admin.GetInstance().FirstName;
-            //    lNameBox.Text = Admin.GetInstance().LastName;
-            //    emailBox.Text = Admin.GetInstance().Email;
-            //    passwordBox.Text = Admin.GetInstance().Password;
-            //    maskedTextBox1.Text = Admin.GetInstance().CNIC;
-            //    if (Admin.GetInstance().Gender == "Male")
-            //    {
-            //        maleBtn.Checked = true;
-                    
-            //    }
-            //    else
-            //    {
-            //        femaleBtn.Checked = true;
-            //    }
-            //    if (Admin.GetInstance().Age >= 18)
-            //    {
-            //        numericUpDown1.Value = (decimal)Admin.GetInstance().Age;
-            //    }
-            //    else
-            //    {
-            //        numericUpDown1.Value = numericUpDown1.Minimum;
-            //    }
-            //}
+            if (Type == "Admin")
+            {
+                label9.Text = "Admin Profile";
+                fNameBox.Text = Admin.GetInstance().FirstName;
+                lNameBox.Text = Admin.GetInstance().LastName;
+                emailBox.Text = Admin.GetInstance().Email;
+                passwordBox.Text = Admin.GetInstance().Password;
+                maskedTextBox1.Text = Admin.GetInstance().CNIC;
+                if (Admin.GetInstance().Gender == "Male")
+                {
+                    maleBtn.Checked = true;
+                }
+                else
+                {
+                    femaleBtn.Checked = true;
+                }
+                if (Admin.GetInstance().Age >= 18)
+                {
+                    numericUpDown1.Value = (decimal)Admin.GetInstance().Age;
+                }
+                else
+                {
+                    numericUpDown1.Value = numericUpDown1.Minimum;
+                }
+            }
             label4.Hide();
             label10.Hide();
             label11.Hide();
             label12.Hide();
             label15.Hide();
         }
-
+         
         private void Form1_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
