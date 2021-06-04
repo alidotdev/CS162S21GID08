@@ -28,7 +28,7 @@ namespace Sem2FProject
             List<Flight> list = FlightData.GetInstance().Flights;
             for(int i = 0; i < list.Count; i++)
             {
-                String[] row = new string[] { list[i].FlightID, list[i].BookedAirline.Name, list[i].Departure.CityName + ", " + list[i].Departure.CountryCode, list[i].Destination.CityName + ", " + list[i].Destination.CountryName, list[i].ReservedSeats };
+                String[] row = new string[] { list[i].FlightID, list[i].BookedAirline, list[i].Departure, list[i].Destination, list[i].ReservedSeats };
                 dataGridView1.Rows.Add(row);
             }
         }

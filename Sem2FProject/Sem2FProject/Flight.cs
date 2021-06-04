@@ -8,15 +8,15 @@ namespace Sem2FProject
 {
     class Flight
     {
-        public Airport Departure
+        public String Departure
         {
             get; set;
         }
-        public Airport Destination
+        public String Destination
         {
             get; set;
         }
-        public Airline BookedAirline
+        public String BookedAirline
         {
             get; set;
         }
@@ -37,7 +37,7 @@ namespace Sem2FProject
             FlightID = FlightIDGen();
             ReservedSeats = "";
         }
-        private String FlightIDGen()
+        public static String FlightIDGen()
         {
             String id = "ARS-FID-";
             Random random = new Random(DateTime.Now.Second);

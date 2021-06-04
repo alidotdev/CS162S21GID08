@@ -55,7 +55,7 @@ namespace Sem2FProject
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(235, 9);
+            this.label1.Location = new System.Drawing.Point(270, 9);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(192, 29);
@@ -113,6 +113,7 @@ namespace Sem2FProject
             this.DeptCombo.Name = "DeptCombo";
             this.DeptCombo.Size = new System.Drawing.Size(258, 28);
             this.DeptCombo.TabIndex = 17;
+            this.DeptCombo.MouseClick += new System.Windows.Forms.MouseEventHandler(this.DeptCombo_MouseClick);
             // 
             // label4
             // 
@@ -133,6 +134,7 @@ namespace Sem2FProject
             this.ArrivalCombo.Name = "ArrivalCombo";
             this.ArrivalCombo.Size = new System.Drawing.Size(258, 28);
             this.ArrivalCombo.TabIndex = 17;
+            this.ArrivalCombo.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ArrivalCombo_MouseClick);
             // 
             // label5
             // 
@@ -153,6 +155,8 @@ namespace Sem2FProject
             this.AirlineCombo.Name = "AirlineCombo";
             this.AirlineCombo.Size = new System.Drawing.Size(258, 28);
             this.AirlineCombo.TabIndex = 17;
+            this.AirlineCombo.SelectedIndexChanged += new System.EventHandler(this.AirlineCombo_SelectedIndexChanged);
+            this.AirlineCombo.MouseClick += new System.Windows.Forms.MouseEventHandler(this.AirlineCombo_MouseClick);
             // 
             // label6
             // 
@@ -173,6 +177,7 @@ namespace Sem2FProject
             this.SeatCombo.Name = "SeatCombo";
             this.SeatCombo.Size = new System.Drawing.Size(258, 28);
             this.SeatCombo.TabIndex = 17;
+            this.SeatCombo.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SeatCombo_MouseClick);
             // 
             // AddAirlineBtn
             // 
@@ -243,6 +248,7 @@ namespace Sem2FProject
             this.ClassCombo.Name = "ClassCombo";
             this.ClassCombo.Size = new System.Drawing.Size(258, 28);
             this.ClassCombo.TabIndex = 17;
+            this.ClassCombo.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ClassCombo_MouseClick);
             // 
             // AddFlight
             // 
@@ -267,6 +273,7 @@ namespace Sem2FProject
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
             this.Name = "AddFlight";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AddFlight";
             this.Load += new System.EventHandler(this.AddFlight_Load);
             this.panel1.ResumeLayout(false);
