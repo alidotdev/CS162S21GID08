@@ -30,51 +30,49 @@ namespace Sem2FProject
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
+            this.progressBar2 = new System.Windows.Forms.ProgressBar();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Honeydew;
-            this.label1.Location = new System.Drawing.Point(105, 51);
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.label1.Location = new System.Drawing.Point(288, 110);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(493, 44);
+            this.label1.Size = new System.Drawing.Size(485, 43);
             this.label1.TabIndex = 1;
             this.label1.Text = "AirLine Reservation System";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // progressBar1
+            // progressBar2
             // 
-            this.progressBar1.AccessibleRole = System.Windows.Forms.AccessibleRole.Window;
-            this.progressBar1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.progressBar1.BackColor = System.Drawing.Color.Thistle;
-            this.progressBar1.ForeColor = System.Drawing.Color.Indigo;
-            this.progressBar1.Location = new System.Drawing.Point(151, 204);
-            this.progressBar1.MarqueeAnimationSpeed = 0;
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(377, 33);
-            this.progressBar1.Step = 5;
-            this.progressBar1.TabIndex = 0;
-            this.progressBar1.UseWaitCursor = true;
-            this.progressBar1.Value = 100;
+            this.progressBar2.BackColor = System.Drawing.Color.Chartreuse;
+            this.progressBar2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.progressBar2.Location = new System.Drawing.Point(296, 505);
+            this.progressBar2.Name = "progressBar2";
+            this.progressBar2.Size = new System.Drawing.Size(477, 34);
+            this.progressBar2.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
+            this.progressBar2.TabIndex = 2;
+            this.progressBar2.Value = 50;
             // 
-            // Form2
+            // Welcome
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Sem2FProject.Properties.Resources.plane_841441_19201;
-            this.ClientSize = new System.Drawing.Size(695, 433);
+            this.ClientSize = new System.Drawing.Size(1059, 678);
+            this.Controls.Add(this.progressBar2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.progressBar1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form2";
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Name = "Welcome";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";
+            
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Welcome_MouseMove);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -83,6 +81,6 @@ namespace Sem2FProject
         #endregion
 
         private System.Windows.Forms.Label label1;
-        public System.Windows.Forms.ProgressBar progressBar1;
+        private System.Windows.Forms.ProgressBar progressBar2;
     }
 }
