@@ -81,6 +81,12 @@
     <Compile Include="AllReservedSeats.designer.cs">
       <DependentUpon>AllReservedSeats.cs</DependentUpon>
     </Compile>
+    <Compile Include="AllUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllUsers.Designer.cs">
+      <DependentUpon>AllUsers.cs</DependentUpon>
+    </Compile>
     <Compile Include="BookFlight.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,6 +104,12 @@
     </Compile>
     <Compile Include="CancelFlightTicket.designer.cs">
       <DependentUpon>CancelFlightTicket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteUser.Designer.cs">
+      <DependentUpon>DeleteUser.cs</DependentUpon>
     </Compile>
     <Compile Include="Email.cs" />
     <Compile Include="Flight.cs" />
@@ -118,6 +130,12 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateUser.Designer.cs">
+      <DependentUpon>UpdateUser.cs</DependentUpon>
     </Compile>
     <Compile Include="Validator.cs" />
     <Compile Include="Welcome.cs">
@@ -253,6 +271,10 @@
     <Content Include="Images\AddFlight%281%29.png" />
     <Content Include="Images\delete.png" />
     <Content Include="Images\cancel.png" />
+    <Content Include="Images\DeleteUser.png" />
+    <Content Include="Images\ViewAllUsers.png" />
+    <Content Include="Images\UpdateUser.png" />
+    <Content Include="Images\NewUser.png" />
     <Content Include="Images\ViewAll.png" />
     <Content Include="Images\NewAirLine.png" />
     <Content Include="Images\Update.png" />

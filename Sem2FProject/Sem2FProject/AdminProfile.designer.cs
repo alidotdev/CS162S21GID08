@@ -34,7 +34,6 @@ namespace Sem2FProject
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.button1 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -55,9 +54,10 @@ namespace Sem2FProject
             this.label6 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -107,23 +107,12 @@ namespace Sem2FProject
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(288, 371);
+            this.label4.Location = new System.Drawing.Point(283, 340);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(66, 26);
             this.label4.TabIndex = 6;
             this.label4.Text = "CNIC";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.White;
-            this.pictureBox1.Image = global::Sem2FProject.Properties.Resources.SirSamyan;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 113);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(147, 158);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 9;
-            this.pictureBox1.TabStop = false;
             // 
             // openFileDialog1
             // 
@@ -147,7 +136,7 @@ namespace Sem2FProject
             this.button3.BackColor = System.Drawing.SystemColors.Highlight;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(96, 728);
+            this.button3.Location = new System.Drawing.Point(87, 652);
             this.button3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(147, 51);
@@ -161,7 +150,7 @@ namespace Sem2FProject
             this.button4.BackColor = System.Drawing.SystemColors.Highlight;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(937, 728);
+            this.button4.Location = new System.Drawing.Point(928, 652);
             this.button4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(147, 51);
@@ -185,7 +174,7 @@ namespace Sem2FProject
             // maskedTextBox1
             // 
             this.maskedTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maskedTextBox1.Location = new System.Drawing.Point(416, 362);
+            this.maskedTextBox1.Location = new System.Drawing.Point(411, 331);
             this.maskedTextBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.maskedTextBox1.Mask = "00000-0000000-0";
             this.maskedTextBox1.Name = "maskedTextBox1";
@@ -197,7 +186,7 @@ namespace Sem2FProject
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(292, 263);
+            this.label3.Location = new System.Drawing.Point(292, 245);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(68, 26);
@@ -207,7 +196,7 @@ namespace Sem2FProject
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(419, 254);
+            this.textBox2.Location = new System.Drawing.Point(419, 236);
             this.textBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(602, 32);
@@ -219,7 +208,7 @@ namespace Sem2FProject
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.Red;
-            this.label15.Location = new System.Drawing.Point(408, 620);
+            this.label15.Location = new System.Drawing.Point(405, 554);
             this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(161, 22);
@@ -229,7 +218,7 @@ namespace Sem2FProject
             // numericUpDown1
             // 
             this.numericUpDown1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown1.Location = new System.Drawing.Point(919, 474);
+            this.numericUpDown1.Location = new System.Drawing.Point(918, 433);
             this.numericUpDown1.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
             this.numericUpDown1.Minimum = new decimal(new int[] {
             18,
@@ -249,7 +238,7 @@ namespace Sem2FProject
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.checkBox1.Location = new System.Drawing.Point(411, 650);
+            this.checkBox1.Location = new System.Drawing.Point(408, 584);
             this.checkBox1.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(213, 33);
@@ -262,7 +251,7 @@ namespace Sem2FProject
             // 
             this.femaleBtn.AutoSize = true;
             this.femaleBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.femaleBtn.Location = new System.Drawing.Point(587, 473);
+            this.femaleBtn.Location = new System.Drawing.Point(586, 432);
             this.femaleBtn.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
             this.femaleBtn.Name = "femaleBtn";
             this.femaleBtn.Size = new System.Drawing.Size(110, 30);
@@ -276,7 +265,7 @@ namespace Sem2FProject
             // 
             this.maleBtn.AutoSize = true;
             this.maleBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.maleBtn.Location = new System.Drawing.Point(417, 473);
+            this.maleBtn.Location = new System.Drawing.Point(416, 432);
             this.maleBtn.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
             this.maleBtn.Name = "maleBtn";
             this.maleBtn.Size = new System.Drawing.Size(84, 30);
@@ -289,7 +278,7 @@ namespace Sem2FProject
             // passwordBox
             // 
             this.passwordBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.passwordBox.Location = new System.Drawing.Point(414, 580);
+            this.passwordBox.Location = new System.Drawing.Point(411, 514);
             this.passwordBox.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
             this.passwordBox.Name = "passwordBox";
             this.passwordBox.PasswordChar = '*';
@@ -301,7 +290,7 @@ namespace Sem2FProject
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label7.Location = new System.Drawing.Point(279, 583);
+            this.label7.Location = new System.Drawing.Point(276, 517);
             this.label7.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(120, 29);
@@ -312,7 +301,7 @@ namespace Sem2FProject
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label8.Location = new System.Drawing.Point(801, 473);
+            this.label8.Location = new System.Drawing.Point(800, 432);
             this.label8.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(56, 29);
@@ -323,7 +312,7 @@ namespace Sem2FProject
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label9.Location = new System.Drawing.Point(283, 468);
+            this.label9.Location = new System.Drawing.Point(283, 433);
             this.label9.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(94, 29);
@@ -335,7 +324,7 @@ namespace Sem2FProject
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Red;
-            this.label6.Location = new System.Drawing.Point(413, 291);
+            this.label6.Location = new System.Drawing.Point(413, 273);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(123, 22);
@@ -347,7 +336,7 @@ namespace Sem2FProject
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.Red;
-            this.label10.Location = new System.Drawing.Point(410, 399);
+            this.label10.Location = new System.Drawing.Point(405, 368);
             this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(121, 22);
@@ -359,18 +348,29 @@ namespace Sem2FProject
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.Red;
-            this.label11.Location = new System.Drawing.Point(407, 509);
+            this.label11.Location = new System.Drawing.Point(406, 459);
             this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(138, 22);
             this.label11.TabIndex = 33;
             this.label11.Text = "Select Gender";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.White;
+            this.pictureBox1.Image = global::Sem2FProject.Properties.Resources.SirSamyan;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 113);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(147, 158);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 9;
+            this.pictureBox1.TabStop = false;
+            // 
             // AdminProfile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1139, 802);
+            this.ClientSize = new System.Drawing.Size(1173, 731);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label6);
@@ -396,12 +396,11 @@ namespace Sem2FProject
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
             this.Name = "AdminProfile";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Admin Profile";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

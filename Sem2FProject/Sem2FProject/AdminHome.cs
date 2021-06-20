@@ -194,5 +194,101 @@ namespace Sem2FProject
             this.Hide();
             new Login().Show();
         }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new AddFlight().Show();
+        }
+
+        private void label5_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            new AddFlight().Show();
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new UpdateFlight().Show();
+        }
+
+        private void label7_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            new UpdateFlight().Show();
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new CancelFlight().Show();
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new CancelFlight().Show();
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new AllFlights().Show();
+        }
+
+        private void label9_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            new AllFlights().Show();
+        }
+
+        private void pictureBox9_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new CreatNewAccount("Admin").Show();
+        }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new CreatNewAccount("Admin").Show();
+        }
+
+        private void pictureBox10_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new UpdateUser().Show();
+        }
+
+        private void label14_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new UpdateUser().Show();
+        }
+
+        private void pictureBox11_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new DeleteUser().Show();
+        }
+
+        private void label16_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new DeleteUser().Show();
+        }
+
+        private void pictureBox12_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new AllUsers().Show();
+        }
+
+        private void label15_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new AllUsers().Show();
+        }
     }
 }
