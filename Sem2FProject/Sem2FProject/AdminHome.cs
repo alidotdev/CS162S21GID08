@@ -145,5 +145,54 @@ namespace Sem2FProject
             this.Hide();
             new Login().Show();
         }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new AdminProfile().Show();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new AdminProfile().Show();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectTab(0);
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectTab(0);
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectTab(1);
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectTab(1);
+        }
+
+        private void SignOutLabel_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            new Login().Show();
+        }
+
+        private void tabPage2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label17_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new Login().Show();
+        }
     }
 }

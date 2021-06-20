@@ -114,6 +114,11 @@
     <Compile Include="CreatNewAccount.designer.cs">
       <DependentUpon>CreatNewAccount.cs</DependentUpon>
     </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Validator.cs" />
     <Compile Include="Welcome.cs">
       <SubType>Form</SubType>
@@ -209,14 +214,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <EmbeddedResource Include="UpdateFlight.resx">
       <DependentUpon>UpdateFlight.cs</DependentUpon>
     </EmbeddedResource>
@@ -249,6 +249,15 @@
     <None Include="Resources\icons8_user_shield_60px.png" />
     <None Include="Resources\icons8_intel_isef_96px.png" />
     <None Include="Resources\icons8_dyndns_70px.png" />
+    <Content Include="Images\AddFlight.png" />
+    <Content Include="Images\AddFlight%281%29.png" />
+    <Content Include="Images\delete.png" />
+    <Content Include="Images\cancel.png" />
+    <Content Include="Images\ViewAll.png" />
+    <Content Include="Images\NewAirLine.png" />
+    <Content Include="Images\Update.png" />
+    <Content Include="Images\logo.jpg" />
+    <Content Include="Images\user.png" />
     <Content Include="Images\SirSamyan.jpg" />
     <Content Include="Resources\plane-841441_19201.jpg" />
     <None Include="Resources\plane-841441_192011.jpg" />
