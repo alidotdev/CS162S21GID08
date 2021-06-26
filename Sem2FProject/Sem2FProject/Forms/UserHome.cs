@@ -20,7 +20,7 @@ namespace Sem2FProject
         private void label11_Click(object sender, EventArgs e)
         {
             this.Hide();
-            new Login().Show();
+            //new Login().Show();
         }
 
         private void label2_Click(object sender, EventArgs e)

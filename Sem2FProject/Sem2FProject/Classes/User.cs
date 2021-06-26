@@ -11,7 +11,12 @@ namespace Sem2FProject
         public MyWallet wallet { get; set; }
         public User()
         {
-            
+            reservedFlights = new List<Flight>();
         }
+        public List<Flight> reservedFlights
+        {
+            get;set;
+        }
+
     }
 }

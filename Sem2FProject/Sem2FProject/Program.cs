@@ -20,7 +20,7 @@ namespace Sem2FProject
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             
-            Application.Run(new Forms.MainFrm());
+            Application.Run(new Forms.UserHomeScreen());
         }
 
     }

@@ -31,7 +31,7 @@ namespace Sem2FProject
             progressBar2.Value = 100;
             Thread.Sleep(1000);
             this.Hide();
-            new Login().Show();
+            //new Login().Show();
         }
         private void Welcome_MouseMove(object sender, MouseEventArgs e)
         {

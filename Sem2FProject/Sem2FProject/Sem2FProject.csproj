@@ -149,52 +149,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\FlightClass.cs" />
-    <Compile Include="Forms\AddClass.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\AddClass.Designer.cs">
-      <DependentUpon>AddClass.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\AddFlight.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\AddFlight.Designer.cs">
-      <DependentUpon>AddFlight.cs</DependentUpon>
-    </Compile>
     <Compile Include="Classes\Admin.cs" />
-    <Compile Include="Forms\AdminHome.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\AdminHome.designer.cs">
-      <DependentUpon>AdminHome.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\AdminProfile.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\AdminProfile.designer.cs">
-      <DependentUpon>AdminProfile.cs</DependentUpon>
-    </Compile>
     <Compile Include="Classes\Airline.cs" />
     <Compile Include="Classes\AirlineData.cs" />
     <Compile Include="Classes\Airport.cs" />
     <Compile Include="Classes\AirportData.cs" />
-    <Compile Include="Forms\AllFlights.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\AllFlights.designer.cs">
-      <DependentUpon>AllFlights.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\AllReservedSeats.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\AllReservedSeats.designer.cs">
       <DependentUpon>AllReservedSeats.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\AllUsers.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\AllUsers.Designer.cs">
-      <DependentUpon>AllUsers.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\BookFlight.cs">
       <SubType>Form</SubType>
@@ -223,34 +187,22 @@
     <Compile Include="Classes\Email.cs" />
     <Compile Include="Classes\Flight.cs" />
     <Compile Include="Classes\FlightData.cs" />
-    <Compile Include="Forms\ForgotPassword.cs">
+    <Compile Include="Forms\Admin HomeScreen.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\ForgotPassword.designer.cs">
-      <DependentUpon>ForgotPassword.cs</DependentUpon>
+    <Compile Include="Forms\Admin HomeScreen.Designer.cs">
+      <DependentUpon>Admin HomeScreen.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\CreatNewAccount.cs">
+    <Compile Include="Forms\UserHomeScreen.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\CreatNewAccount.designer.cs">
-      <DependentUpon>CreatNewAccount.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\MainFrm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\MainFrm.Designer.cs">
-      <DependentUpon>MainFrm.cs</DependentUpon>
+    <Compile Include="Forms\UserHomeScreen.Designer.cs">
+      <DependentUpon>UserHomeScreen.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\UpdateUser.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\UpdateUser.Designer.cs">
-      <DependentUpon>UpdateUser.cs</DependentUpon>
     </Compile>
     <Compile Include="Classes\Validator.cs" />
     <Compile Include="Forms\Welcome.cs">
@@ -259,36 +211,12 @@
     <Compile Include="Forms\Welcome.designer.cs">
       <DependentUpon>Welcome.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\AddAirport.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\AddAirport.Designer.cs">
-      <DependentUpon>AddAirport.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Login.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Login.designer.cs">
-      <DependentUpon>Login.cs</DependentUpon>
-    </Compile>
     <Compile Include="Classes\MyWallet.cs" />
-    <Compile Include="Forms\AddAirline.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\AddAirline.Designer.cs">
-      <DependentUpon>AddAirline.cs</DependentUpon>
-    </Compile>
     <Compile Include="Classes\Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Classes\Ticket.cs" />
     <Compile Include="Classes\Transaction.cs" />
-    <Compile Include="Forms\UpdateFlight.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\UpdateFlight.designer.cs">
-      <DependentUpon>UpdateFlight.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\UpdateFlightTicket.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -303,24 +231,6 @@
     <Compile Include="Forms\UserHome.designer.cs">
       <DependentUpon>UserHome.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Forms\AddAirport.resx">
-      <DependentUpon>AddAirport.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\AddClass.resx">
-      <DependentUpon>AddClass.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\AddFlight.resx">
-      <DependentUpon>AddFlight.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\AdminHome.resx">
-      <DependentUpon>AdminHome.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\AdminProfile.resx">
-      <DependentUpon>AdminProfile.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\AllFlights.resx">
-      <DependentUpon>AllFlights.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Forms\AllReservedSeats.resx">
       <DependentUpon>AllReservedSeats.cs</DependentUpon>
     </EmbeddedResource>
@@ -333,32 +243,20 @@
     <EmbeddedResource Include="Forms\CancelFlightTicket.resx">
       <DependentUpon>CancelFlightTicket.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\ForgotPassword.resx">
-      <DependentUpon>ForgotPassword.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\Admin HomeScreen.resx">
+      <DependentUpon>Admin HomeScreen.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\CreatNewAccount.resx">
-      <DependentUpon>CreatNewAccount.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\MainFrm.resx">
-      <DependentUpon>MainFrm.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\UserHomeScreen.resx">
+      <DependentUpon>UserHomeScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Forms\Welcome.resx">
       <DependentUpon>Welcome.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Login.resx">
-      <DependentUpon>Login.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\AddAirline.resx">
-      <DependentUpon>AddAirline.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\UpdateFlight.resx">
-      <DependentUpon>UpdateFlight.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\UpdateFlightTicket.resx">
       <DependentUpon>UpdateFlightTicket.cs</DependentUpon>

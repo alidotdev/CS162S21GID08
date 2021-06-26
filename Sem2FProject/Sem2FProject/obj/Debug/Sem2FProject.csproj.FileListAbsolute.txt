@@ -19,21 +19,15 @@ E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\bin\Debug\Sem2FProject.ex
 E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\bin\Debug\Sem2FProject.exe
 E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\bin\Debug\Sem2FProject.pdb
 E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.csprojAssemblyReference.cache
-E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.AdminProfile.resources
-E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.AllFlights.resources
 E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.AllReservedSeats.resources
 E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.CancelFlight.resources
 E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.Properties.Resources.resources
-E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.UpdateFlight.resources
 E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.csproj.GenerateResource.cache
 E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.csproj.CoreCompileInputs.cache
 E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.exe
 E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.pdb
-E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.AdminHome.resources
 E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.BookFlight.resources
 E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.CancelFlightTicket.resources
-E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.ForgotPassword.resources
-E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.Login.resources
 E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.UpdateFlightTicket.resources
 E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.UserHome.resources
 C:\Users\Muhammad Ali Murtaza\OneDrive\Desktop\Semester 2\OOP Theory\Final Project\CS162S21GID08\Sem2FProject\Sem2FProject\bin\Debug\Sem2FProject.exe.config
@@ -60,11 +54,7 @@ C:\Users\Muhammad Ali Murtaza\OneDrive\Desktop\Semester 2\OOP Theory\Final Proje
 C:\Users\Muhammad Ali Murtaza\OneDrive\Desktop\Semester 2\OOP Theory\Final Project\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.CreatNewAccount.resources
 C:\Users\Muhammad Ali Murtaza\OneDrive\Desktop\Semester 2\OOP Theory\Final Project\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.Welcome.resources
 C:\Users\Muhammad Ali Murtaza\OneDrive\Desktop\Semester 2\OOP Theory\Final Project\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.AddAirport.resources
-E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.AddAirport.resources
-E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.CreatNewAccount.resources
 E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.Welcome.resources
-E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.AddFlight.resources
-E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.AddAirline.resources
 C:\Users\Muhammad Ali Murtaza\OneDrive\Desktop\Semester 2\OOP Theory\Final Project\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.AddFlight.resources
 C:\Users\Muhammad Ali Murtaza\OneDrive\Desktop\Semester 2\OOP Theory\Final Project\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.AddAirline.resources
 E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\bin\Debug\Bunifu.Licensing.dll
@@ -134,5 +124,5 @@ E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\bin\Debug\Bunifu.UI.WinFo
 E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.xml
 E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.exe.licenses
 E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.csproj.CopyComplete
-E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.AddClass.resources
-E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.Forms.MainFrm.resources
+E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.Forms.AdminHome.resources
+E:\OOP\YDFinal\CS162S21GID08\Sem2FProject\Sem2FProject\obj\Debug\Sem2FProject.Forms.UserHomeScreen.resources

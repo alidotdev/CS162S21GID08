@@ -23,5 +23,40 @@ namespace Sem2FProject.Forms
             materialSkinManager.ColorScheme = new ColorScheme(Primary.Indigo500, Primary.Indigo500, Primary.BlueGrey500, Accent.DeepPurple400, TextShade.WHITE);
             this.FormBorderStyle = FormBorderStyle.None;
         }
+
+        private void materialRaisedButton3_Click(object sender, EventArgs e)
+        {
+            bunifuPages1.SelectedIndex = 3;
+
+        }
+
+        private void continueBtn_Click(object sender, EventArgs e)
+        {
+            bunifuPages1.SelectedIndex = 4;
+        }
+
+        private void bookFlightBtn_Click(object sender, EventArgs e)
+        {
+            bunifuPages1.SelectedIndex = 0;
+
+        }
+
+        private void viewFlightBtn_Click(object sender, EventArgs e)
+        {
+            bunifuPages1.SelectedIndex = 1;
+
+        }
+
+        private void updateFlightBtn_Click(object sender, EventArgs e)
+        {
+            bunifuPages1.SelectedIndex = 2;
+
+        }
+
+        private void materialRaisedButton4_Click(object sender, EventArgs e)
+        {
+            bunifuPages1.SelectedIndex = 5;
+
+        }
     }
 }
