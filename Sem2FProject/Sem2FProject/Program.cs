@@ -15,7 +15,8 @@ namespace Sem2FProject
         static void Main()
         {
             UserData.GetInstance().LoadUsers();
-            
+            AirlineData.GetInstance().LoadAirline();
+            AirportData.GetInstance().LoadAirports();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             

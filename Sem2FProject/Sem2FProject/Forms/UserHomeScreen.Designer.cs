@@ -1,7 +1,7 @@
 ﻿
-namespace Sem2FProject
+namespace Sem2FProject.Forms
 {
-    partial class AllUsers
+    partial class UserHomeScreen
     {
         /// <summary>
         /// Required designer variable.
@@ -32,7 +32,7 @@ namespace Sem2FProject
             this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "AllUsers";
+            this.Text = "UserHomeScreen";
         }
 
         #endregion
